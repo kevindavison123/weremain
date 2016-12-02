@@ -2,6 +2,7 @@ package com.weremain.fund.wrw.support;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import org.apache.ibatis.type.Alias;
 
 import java.util.Date;
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.List;
 /**
  * Created by kevin on 11/15/16.
  */
+@Alias("User")
 public class User
 {
     @JsonProperty("id")
@@ -20,7 +22,7 @@ public class User
     @JsonProperty("updated")
     private Date updated;
     @JsonProperty("charities")
-    private List<String> charities;
+    private String charities;
     @JsonProperty("email")
     private String email;
     @JsonProperty("phoneNumber")
@@ -63,11 +65,11 @@ public class User
         this.updated = updated;
     }
 
-    public List<String> getCharities() {
+    public String getCharities() {
         return charities;
     }
 
-    public void setCharities(List<String> charities) {
+    public void setCharities(String charities) {
         this.charities = charities;
     }
 

@@ -6,6 +6,9 @@
     <properties resource="application.properties"/>
     <!-- ********** Aliases ********** -->
     <typeAliases>
+        <typeAlias alias = "User"
+                   type="com.weremain.fund.wrw.support.User"/>
+
     </typeAliases>
     <!-- ********** Environments ********** -->
     <environments default="develop">
@@ -19,7 +22,7 @@
                 <property name="password" value="sa"/>
             </dataSource>
         </environment>
-        <environment id="develop-transaction">
+        <environment id="develop-charity">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="org.h2.Driver"/>

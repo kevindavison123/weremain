@@ -26,7 +26,6 @@ public final class Bootstrap extends Application {
         //Force the settings to instantiate
         final Settings settings = Settings.getInstance();
         LOG.info("Environment: {}", settings.getEnvironment());
-        LOG.info("Views: {}", settings.getViews());
         LOG.info("Download Path: {}", settings.getDownloadPath());
     }
 

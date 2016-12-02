@@ -28,7 +28,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 public class MyBatisDataUserManager implements UserDataManager {
     private static final Logger LOG = LoggerFactory.getLogger(MyBatisDataUserManager.class);
     private static final String MYBATIS_CONFIG = "mybatis-config.xml";
-    private static final String USER_ENV_SUFFIX = "-filter";
+    private static final String USER_ENV_SUFFIX = "-user";
     private static boolean initialized = false;
     private static ObjectMapper objectMapper;
     private static SqlSessionFactory sqlUserFactory;
