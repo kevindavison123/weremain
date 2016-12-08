@@ -1,0 +1,13 @@
+{
+  "name": "weremain-webapp",
+  "author": "Kyle Davison <kdavison@gmail.com>",
+  "version": "0.0.1",
+  "description": "node.js -> docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"  
+  },
+  "dependencies": {
+    "express": "^4.14.0"  
+  }
+}
