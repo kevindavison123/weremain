@@ -2,9 +2,6 @@
   "name": "weremain-webapp",
   "author": "Kyle Davison <kdavison@gmail.com>",
   "version": "0.0.1",
-  "scripts": {
-    "start": "node server.js"
-  },
   "private": true,
   "dependencies": {
     "express": "^4.14.0",
