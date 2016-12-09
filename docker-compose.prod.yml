@@ -1,0 +1,25 @@
+# Run docker-compose build
+# Run docker-compose up
+# Live long and prosper
+
+version: '2'
+
+services:
+  node:
+    container_name: weremain-production
+    image: weremain-production
+    build:
+      context: .
+      dockerfile: .docker/production.dockerfile
+    volumes:
+      - .:/var/www/weremain
+    environment:
+      NODE_ENV: 'production'
+    ports:
+      - "3000:3000"
+    networks:
+      - weremain-network
+      
+networks:
+  weremain-network:
+    driver: bridge
