@@ -2,6 +2,7 @@
   "name": "weremain-webapp",
   "author": "Kyle Davison <kdavison@gmail.com>",
   "version": "0.0.1",
+  "license": "UNLICENSED",
   "private": true,
   "dependencies": {
     "express": "^4.14.0",

@@ -5,7 +5,6 @@
 version: '2'
 
 services:
-
   node:
     container_name: weremain-production
     image: weremain-production
@@ -15,7 +14,7 @@ services:
     volumes:
       - .:/var/www/weremain
     environment:
-      - NODE_ENV=production
+      NODE_ENV: 'production'
     ports:
       - "3000:3000"
     networks:

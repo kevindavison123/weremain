@@ -14,9 +14,9 @@ services:
     volumes:
       - .:/var/www/weremain
     environment:
-      - NODE_ENV=development
+      NODE_ENV: 'development'
     ports:
-      - "41960:8080"
+      - "3000:3000"
     networks:
       - weremain-network
       

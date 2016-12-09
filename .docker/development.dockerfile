@@ -2,13 +2,14 @@ FROM node:latest
 
 MAINTAINER Kyle Davison <kdavison@gmail.com>
 
-ENV CONTAINER_PATH /var/www/weremain
-
-COPY	. $CONTAINER_PATH
-WORKDIR $CONTAINER_PATH
-
+RUN apt-get update
 RUN npm install nodemon -g
 
-EXPOSE 8080
+RUN mkdir /weremain
+WORKDIR /weremain
+COPY . /weremain
+RUN npm install
+
+EXPOSE 3000
 
 ENTRYPOINT ["nodemon", "server.js"]
