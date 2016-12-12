@@ -39,7 +39,6 @@ public class Settings {
             final Properties properties = new Properties();
             properties.load(input);
             LOG.debug("Properties {}", properties.get(ENVIRONMENT_PROPERTY));
-
             //Set properties
             environment = (String)properties.get(ENVIRONMENT_PROPERTY);
             downloadPath = (String)properties.get(DOWNLOAD_PATH_PROPERTY);

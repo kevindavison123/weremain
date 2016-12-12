@@ -16,6 +16,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -25,7 +27,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
  */
 public class MyBatisDataUserManagerTest
 {
-    private static final Logger LOG = LoggerFactory.getLogger(MyBatisDataUserManagerTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(MyBatisDataUserManagerTest.class);
     private static String CONNECTIONURL = "jdbc:h2:mem:test;MODE=MSSQLSERVER";
     private static String USERNAME = "sa";
     private static String PASSWORD = "sa";
@@ -52,25 +54,29 @@ public class MyBatisDataUserManagerTest
        String insertIntoDBFromScript = "RUNSCRIPT FROM " +"'" + insertionPath + "'";
        statement.execute(insertIntoDBFromScript);
 
-       LOG.debug("---------- {} ----------", testsName);
+       LOGGER.debug("---------- {} ----------", testsName.getMethodName());
    }
 
     @Test
     public void should_create_a_user(){
-        LOG.debug("{}",userManager.findUsers().size());
+        LOGGER.debug("{}",userManager.findUsers().size());
         User createUser = new User("DAVID","[\"CHARITY1\",\"CHARITY2\",\"CHARITY3\"]","DAVID@DAVID.COM","444-444-4444");
         boolean saved = userManager.saveUser(createUser);
         for(User user: userManager.findUsers())
         {
-            LOG.debug("User: {}", user.getContent());
+            LOGGER.debug("User: {}", user.getContent());
         }
         assertThat(saved,is(true));
+        assertThat(userManager.findUsers().size(),is(3));
 
 
     }
 
     @Test
     public void should_get_all_users(){
+        List<User> list = userManager.findUsers();
+        assertThat(list.isEmpty(), is(false));
+        assertThat(list.size(), is(2));
 
     }
 
@@ -86,10 +92,20 @@ public class MyBatisDataUserManagerTest
     }
 
     @Test
-    public void should_delete_user(){}
+    public void should_delete_user(){
+        boolean deleted = userManager.deleteUser("AARON@AARON.COM");
+        assertThat(deleted, is(true));
+        assertThat(userManager.findUsers().size(),is(1));
+
+        boolean notDeleted = userManager.deleteUser("NOTAPERSON@NOTAPERSON.COM");
+        assertThat(deleted, is(true));
+        assertThat(userManager.findUsers().size(), is(1));
+    }
 
     @Test
-    public void should_update_user(){}
+    public void should_update_user(){
+        User someOldUser = userManager.findUser("AARON@AARON.COM").get();
+    }
 
     @After
     public void teardown() throws SQLException {

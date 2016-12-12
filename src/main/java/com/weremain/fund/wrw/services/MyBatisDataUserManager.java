@@ -128,6 +128,7 @@ public class MyBatisDataUserManager implements UserDataManager {
             user.setContent(newContent);
 
             session.update(Mappings.UPDATE_USER,user);
+            session.commit();
 
         } catch (JsonProcessingException e) {
            LOG.error("Cannot write content for {}", user.getContent());
