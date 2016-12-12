@@ -33,6 +33,16 @@ public class User
     public User() {
     }
 
+    /**
+     * For testing purposes only
+     */
+    public User(String name, String charities, String email, String phoneNumber) {
+        this.name = name;
+        this.charities = charities;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     public Long getId() {
         return id;
     }

@@ -17,12 +17,15 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 /**
  * Created by kevin on 12/2/16.
  */
-public class MyBatisDataUserManangerTest
+public class MyBatisDataUserManagerTest
 {
-    private static final Logger LOG = LoggerFactory.getLogger(MyBatisDataUserManangerTest.class);
+    private static final Logger LOG = LoggerFactory.getLogger(MyBatisDataUserManagerTest.class);
     private static String CONNECTIONURL = "jdbc:h2:mem:test;MODE=MSSQLSERVER";
     private static String USERNAME = "sa";
     private static String PASSWORD = "sa";
@@ -53,15 +56,33 @@ public class MyBatisDataUserManangerTest
    }
 
     @Test
-    public void should_create_a_user(){}
+    public void should_create_a_user(){
+        LOG.debug("{}",userManager.findUsers().size());
+        User createUser = new User("DAVID","[\"CHARITY1\",\"CHARITY2\",\"CHARITY3\"]","DAVID@DAVID.COM","444-444-4444");
+        boolean saved = userManager.saveUser(createUser);
+        for(User user: userManager.findUsers())
+        {
+            LOG.debug("User: {}", user.getContent());
+        }
+        assertThat(saved,is(true));
+
+
+    }
 
     @Test
-    public void should_get_all_users(){}
+    public void should_get_all_users(){
+
+    }
 
     @Test
-    public void should_get_single_user(){
+    public void should_get_and_not_get_single_user(){
         Optional<User> user = userManager.findUser("AARON@AARON.COM");
+        assertThat(user.isPresent(), is(true));
+        assertThat(user.get().getId(), is(1001L));
+        assertThat(user.get().getEmail(),is("AARON@AARON.COM"));
 
+        Optional<User> fakeUser = userManager.findUser("NOTAPERSON@NOTAPERSON.COM");
+        assertThat(fakeUser.isPresent(), is(false));
     }
 
     @Test

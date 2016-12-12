@@ -20,6 +20,7 @@ import java.io.Reader;
 import java.util.Date;
 import java.util.List;
 
+import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
@@ -47,7 +48,7 @@ public class MyBatisDataUserManager implements UserDataManager {
 
             try
             {
-                //Load the filter environment
+                //Load the user environment
                 user = Resources.getResourceAsReader(MYBATIS_CONFIG);
                 sqlUserFactory = new SqlSessionFactoryBuilder().build(user, environment + USER_ENV_SUFFIX);
                 LOG.debug("Initialized Sql Session Factory for {}{}", environment, USER_ENV_SUFFIX);
@@ -89,25 +90,24 @@ public class MyBatisDataUserManager implements UserDataManager {
             final User found = session.selectOne(Mappings.SELECT_USER,email);
             if(found == null )
             {
-                LOG.warn("No filter found for {}", email);
+                LOG.warn("No user found for {}", email);
             }
             final String content = checkNotNull(found.getContent(), "JSON content is empty");
             final User user = objectMapper.readValue(content,User.class);
             return Optional.of(user);
         }
-        catch (JsonParseException e) {
+        catch (IOException e) {
             LOG.error("Cannot parse content {}",e);
         }
-        catch (JsonMappingException e) {
-            LOG.error("Cannot map content {}",e);
-        }
-        catch (IOException e) {
-            LOG.error("Cannot convert content to the user {}",e);
+        catch (NullPointerException x)
+        {
+            LOG.warn("user has not been found and the value is {}",x.getMessage());
+            return Optional.absent();
         }
         finally {
             session.close();
         }
-        return null;
+        return Optional.absent();
     }
 
     @Override

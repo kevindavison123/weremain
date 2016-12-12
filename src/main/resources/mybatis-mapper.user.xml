@@ -25,7 +25,6 @@
             keyColumn="ID"
             keyProperty="id">
         INSERT INTO USERSDB(
-        id,
         name,
         joined,
         updated,
@@ -44,15 +43,15 @@
     </insert>
 
     <insert id="updateUser"
-                parameterType="User">
+            parameterType="User">
         UPDATE USERSDB
         SET
         name = #{name},
         joined = #{joined},
-        updated = #{updated},
         charities = #{charities},
         phoneNumber = #{phoneNumber},
-        content  #{content}
+        content = #{content},
+        updated = #{updated}
         WHERE email = #{email}
     </insert>
 
