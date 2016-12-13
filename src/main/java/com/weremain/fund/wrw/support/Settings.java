@@ -18,16 +18,11 @@ public class Settings {
     private static final Logger LOG = LoggerFactory.getLogger(Settings.class);
     private static final String ENVIRONMENT_PROPERTY = "environment";
     private static final String DOWNLOAD_PATH_PROPERTY = "downloads";
-    private static final String VIEWABLE_RESULTS_PROPERTY = "viewable";
-    private static final String DOWNLOADABLE_RESULTS_PROPERTY = "downloadable";
-    private static final String VIEWS_PROPERTY = "views";
     private final static String APP_CONFIG = "/application.properties";
     private final static Settings settings = new Settings();
     private String environment;
     private String downloadPath;
-    private long viewableResults;
     private long downloadableResults;
-    private List<String> views;
 
     /**
      * This is a singleton
@@ -44,16 +39,9 @@ public class Settings {
             final Properties properties = new Properties();
             properties.load(input);
             LOG.debug("Properties {}", properties.get(ENVIRONMENT_PROPERTY));
-
             //Set properties
             environment = (String)properties.get(ENVIRONMENT_PROPERTY);
             downloadPath = (String)properties.get(DOWNLOAD_PATH_PROPERTY);
-            viewableResults = Long.valueOf((String)properties.get(VIEWABLE_RESULTS_PROPERTY));
-            downloadableResults = Long.valueOf((String)properties.get(DOWNLOADABLE_RESULTS_PROPERTY));
-            views = Splitter.on(",")
-                    .trimResults()
-                    .omitEmptyStrings()
-                    .splitToList((String)properties.get(VIEWS_PROPERTY));
         }
         catch (IOException x)
         {
@@ -92,27 +80,5 @@ public class Settings {
     public String getEnvironment()
     {
         return this.environment;
-    }
-
-    /**
-     * Get the viewable results threshold
-     */
-    public long getViewableThreshold()
-    {
-        return viewableResults;
-    }
-
-    /**
-     * Get available views.
-     */
-    public List<String> getViews()
-    {
-        //Safeguard if views is null (which it should not be)
-        if (views == null)
-        {
-            return new ArrayList<String>();
-        }
-
-        return this.views;
     }
 }
