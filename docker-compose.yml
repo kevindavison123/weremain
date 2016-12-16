@@ -5,9 +5,8 @@
 version: '2'
 
 services:
-  node:
-    container_name: weremain-development
-    image: weremain-development
+  web:
+    container_name: weremain
     build:
       context: .
       dockerfile: .docker/development.dockerfile
