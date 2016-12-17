@@ -14,7 +14,10 @@
       "image": "node:latest",
       "memory": 300,
       "environment": [
-        { "NODE_EV" : "production" }      
+        {
+          "name": "NODE_ENV",
+          "value": "production"
+        }
       ],
       "portMappings": [
         {
