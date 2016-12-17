@@ -12,6 +12,7 @@
 *.user
 *.versionsBackup
 *.war
+*.zip
 *.lck
 Thumbs.db
 .classpath
