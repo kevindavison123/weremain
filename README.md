@@ -25,3 +25,33 @@ development:
 
 production:
 [sudo] docker-compose -f docker-compose.yml -f docker-compose.prod.yml up --build -d
+
+## AWS elastic beanstalk ##
+1. sudo apt install pip
+2. pip install --upgrade --user awsebcli
+3. export PATH=~/.local/bin:$PATH
+	OR
+add ~/.local/bin to your bash_profile or equivilent
+
+4. eb init
+  choose your region ( 13 )
+  choose weremain ( or create it )
+
+5. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
