@@ -10,8 +10,9 @@
   ],
   "containerDefinitions": [
     {
-      "name": "php-app",
+      "name": "weremain-app",
       "image": "node:latest",
+      "memory": 300,
       "environment": [
         { "NODE_EV" : "production" }      
       ],
