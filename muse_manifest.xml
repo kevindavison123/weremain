@@ -1,0 +1,57 @@
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="weremain.org" resolutions="1x" timestamp="1482161236602">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="master_a-master.css" crc="234484889" ref="about:subscribe:contact:donate:stories:get-involved:blog:social-media:partners:index"/>
+    <file name="about.css" crc="4086853158" ref="about"/>
+    <file name="subscribe.css" crc="373590276" ref="subscribe"/>
+    <file name="contact.css" crc="3913684422" ref="contact"/>
+    <file name="donate.css" crc="4184091475" ref="donate"/>
+    <file name="stories.css" crc="4166781091" ref="stories"/>
+    <file name="get-involved.css" crc="4020450204" ref="get-involved"/>
+    <file name="blog.css" crc="278274524" ref="blog"/>
+    <file name="social-media.css" crc="3909392841" ref="social-media"/>
+    <file name="partners.css" crc="364218164" ref="partners"/>
+    <file name="index.css" crc="249284835" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="vid_20161107_111817.mp4" crc="3927857939" seo="true" mt="1481828514000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index:about:subscribe:partners:stories:contact:get-involved:donate:blog:social-media"/>
+    <file name="museutils.js" crc="531812214" ref="index:about:subscribe:partners:stories:contact:get-involved:donate:blog:social-media"/>
+    <file name="whatinput.js" crc="84559013" ref="index:about:subscribe:partners:stories:contact:get-involved:donate:blog:social-media"/>
+    <file name="webpro.js" crc="4156477058" ref="index:stories:contact"/>
+    <file name="musewpslideshow.js" crc="4058618124" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3810062583" ref="index"/>
+    <file name="touchswipe.js" crc="4174436727" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index:contact"/>
+    <file name="jquery.musemenu.js" crc="3902934130" ref="index:about:subscribe:partners:stories:contact:get-involved:donate:blog:social-media"/>
+    <file name="jquery.watch.js" crc="3866665977" ref="index:about:subscribe:partners:stories:contact:get-involved:donate:blog:social-media"/>
+    <file name="jquery.scrolleffects.js" crc="3975164813" ref="index:subscribe"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:about:subscribe:partners:stories:contact:get-involved:donate:blog:social-media"/>
+    <file name="musewpdisclosure.js" crc="3974494556" ref="stories"/>
+    <file name="form_check.php" crc="373582055" ref="contact"/>
+    <file name="form_throttle.php" crc="211381018" ref="contact"/>
+    <file name="form_process.php" crc="6354943" ref="contact"/>
+    <file name="form-u5073.php" crc="208706751" ref="contact"/>
+  </folder>
+  <folder name="images">
+    <file name="20150815_005350572_ios.jpg" crc="4252573474" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="u5075-17.png" crc="311828129" ref="contact"/>
+    <file name="u5075-17-r.png" crc="3844863548" ref="contact"/>
+    <file name="u5075-17-m.png" crc="446077895" ref="contact"/>
+    <file name="u5075-17-fs.png" crc="51175883" ref="contact"/>
+  </folder>
+  <file name="index.html" crc="520575652" seo="true" mt="1482161064637" redirect="true"/>
+  <file name="about.html" crc="319604797" seo="true" mt="1482161064637" redirect="true"/>
+  <file name="subscribe.html" crc="3901242328" seo="true" mt="1482161064637" redirect="true"/>
+  <file name="partners.html" crc="4126490917" seo="true" mt="1482161064637" redirect="true"/>
+  <file name="stories.html" crc="518905590" seo="true" mt="1482161074414" redirect="true"/>
+  <file name="contact.html" crc="4277795036" seo="true" mt="1482161193505" redirect="true"/>
+  <file name="get-involved.html" crc="4076511669" seo="true" mt="1482161064637" redirect="true"/>
+  <file name="donate.html" crc="56305594" seo="true" mt="1482161064637" redirect="true"/>
+  <file name="blog.html" crc="382153889" seo="true" mt="1482161077936" redirect="true"/>
+  <file name="social-media.html" crc="4159421687" seo="true" mt="1482161081721" redirect="true"/>
+</manifest>
