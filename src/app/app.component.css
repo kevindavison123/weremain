@@ -1,0 +1,29 @@
+#menu-settings{
+  height: 84px;
+  background-color: #dddddd;
+}
+.table{
+  display: table;
+  margin: 0 auto;
+}
+
+.table ul#navigation-bar{
+  min-width: 600px;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+.table li{
+  float: left;
+  border-right: 1px solid #bbb;
+}
+.table li:last-child{
+  border-right: none;
+}
+.table a {
+  display: block;
+  padding: 8px;
+}
+.table a:hover{
+  background-color: #8B8888;
+}
