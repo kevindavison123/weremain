@@ -27,3 +27,21 @@
 .table a:hover{
   background-color: #8B8888;
 }
+.beachpic{
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+.text-overlay h1{
+  position: absolute;
+  top:200px;
+  left: 30%;
+  width:100%;
+}
+.text-overlay h1 span {
+  color:white;
+  font: bold 150px/500px Helvetica, Sans-Seriff;
+  letter-spacing: -1px;
+  padding: 10px;
+}
