@@ -4,21 +4,41 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import {RouterModule, Routes} from '@angular/router';
 
-import { AppComponent } from './app.component'
+import { AppComponent } from './app.component';
+import { AboutComponent } from './pages/about/about.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { GetInvolvedComponent } from './pages/get-involved/get.involved.component';
+import { PartnersComponent } from './pages/partners/partners.component';
+import { SocialComponent } from './pages/social-media/social.media.component';
+import { StoriesComponent} from './pages/stories/stories.component';
 
 const appRoutes: Routes = [
+  {path: 'home', redirectTo: '',component: AppComponent},
+  {path: 'about', component: AboutComponent},
+  {path: 'blog', component:  BlogComponent},
+  {path: 'get-involved', component: GetInvolvedComponent},
+  {path: 'donatories', component: PartnersComponent},
+  {path: 'socials', component: SocialComponent},
+  {path: 'stories', component: StoriesComponent}
 
 ];
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    BlogComponent,
+    GetInvolvedComponent,
+    PartnersComponent,
+    SocialComponent,
+    StoriesComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
