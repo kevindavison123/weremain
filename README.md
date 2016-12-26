@@ -1,5 +1,70 @@
 # Weremain
 
+## Using Git and Github
+
+### Cloning
+
+`git clone git@github.com:kevindavison123/weremain.git weremain`
+
+This will copy the project into a folder called weremain in the current directory you are in. 
+
+### Branching 
+
+`git checkout -b my-branch-name` Will create a branch based off of the current branch you are using. **NOTE** Always use master to create a new branch.
+
+`git branch` will tell you what branch you are in. 
+
+`git checkout my-existing-branch` will switch to a branch that already exists. 
+
+`git fetch origin [master]` will fetch any branches from the repo that you wish to work on.
+
+### Committing and Pushing to your branch
+
+`git add -A` will add all unversioned files to be committed. 
+
+`git commit -m "Add a description about what changes you made"` This will save your changes in your local repo on your computer
+
+`git push origin my-branch-name` This will push your commit(s) to the remote repo under your branch name.
+
+**NOTE** DO NOT PUSH TO MASTER UNDER ANY CIRCUMSTANCES. 
+
+## Project Structure 
+
+Almost all HTML, TS, and CSS files will under the `src/app` folder directory. The exception is `index.html`, however that will be rarely touched. 
+
+The `home` page will be under the name pattern `app.component.`, any auxilary pages will be under the `src/app/pages` directory. 
+
+From here a single page will have three file types, a HTML, CSS, and TS (type script) file in the same hierarchy. For example:
+
+`/src/app/pages`
+  
+  `-/about`
+  
+  `--about.component.html`
+  
+  `--about.component.css`
+  
+  `--about.component.ts`
+  
+  That is the structural pattern for all the pages in this project.
+  
+  **NOTE** Do not add work to the `/htmlwork/` directory as we are migrating that to the angular2 structure. Any and all work will be deleted. 
+  
+
+## NPM
+
+Under the project directory install `npm` and the `npm angular2` in order to run and build the website. 
+`npm start` will compile and start the project on `localhost:4200`. There you will be able to see the changes. 
+
+For more info check out how to install and run using `npm` 
+
+
+
+
+
+
+## Building and Running project with Angular2
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 
 ## Development server
