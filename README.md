@@ -51,17 +51,14 @@ From here a single page will have three file types, a HTML, CSS, and TS (type sc
   **NOTE** Do not add work to the `/htmlwork/` directory as we are migrating that to the angular2 structure. Any and all work will be deleted. 
   
 
-## NPM
+## NPM (Node Package Manager)
 
 Under the project directory install `npm` and the `npm angular2` in order to run and build the website. 
 `npm start` will compile and start the project on `localhost:4200`. There you will be able to see the changes. 
 
 For more info check out how to install and run using `npm` 
 
-
-
-
-
+# Ingore the rest from here, npm does the job you want 
 
 ## Building and Running project with Angular2
 
