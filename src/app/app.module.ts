@@ -17,7 +17,7 @@ const appRoutes: Routes = [
   {path: 'about', component: AboutComponent},
   {path: 'blog', component:  BlogComponent},
   {path: 'get-involved', component: GetInvolvedComponent},
-  {path: 'donatories', component: PartnersComponent},
+  {path: 'beneficiaries', component: PartnersComponent},
   {path: 'socials', component: SocialComponent},
   {path: 'stories', component: StoriesComponent}
 
