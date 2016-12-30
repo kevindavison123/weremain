@@ -21,6 +21,7 @@ const appRoutes: Routes = [
   {path: 'stories', component: StoriesComponent},
   {path: 'issues', component: IssuesComponent}
 
+
 ];
 
 
