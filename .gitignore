@@ -14,6 +14,7 @@
 .c9/
 *.launch
 .settings/
+*.iml
 
 # IDE - VSCode
 .vscode/*
@@ -38,3 +39,5 @@ testem.log
 #System Files
 .DS_Store
 Thumbs.db
+
+

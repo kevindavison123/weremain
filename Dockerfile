@@ -10,6 +10,6 @@ COPY . /weremain
 
 RUN npm install
 
-EXPOSE 80
+EXPOSE 4200
 
 ENTRYPOINT ["node", "server.js"]
