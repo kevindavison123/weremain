@@ -438,6 +438,8 @@ textarea
   float: left;
 }
 
+
+
 .fld-checkbox input[type=checkbox],.fld-radiobutton input[type=radio] /* Hide native checkbox */
 {
   position: absolute;
@@ -538,7 +540,7 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
 {
   z-index: 1;
   width: 960px;
-  min-height: 4219px;
+  min-height: inherit;
   background-image: none;
   border-width: 0px;
   border-color: #000000;
@@ -977,40 +979,59 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
   z-index: 14;
   width: 776px;
   position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#u439-4
+.grpelemimg
 {
-  z-index: 15;
+  display: inline;
+  float: left;
+  left: 50px;
+  top: 100px;
+}
+
+#weimg
+{
   position: relative;
-  margin-right: -10000px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #u442-4
 {
-  z-index: 19;
   position: relative;
-  margin-right: -10000px;
-  left: 147px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#u456-4
+#afundimg
 {
-  z-index: 23;
+  display: inline;
+  float: left;
   position: relative;
-  margin-right: -10000px;
-  margin-top: 106px;
-  left: 93px;
+  top:200px;
+  right: 300px;
 }
 
-#u474
+#lineimg
 {
-  z-index: 27;
-  width: 345px;
   position: relative;
-  margin-right: -10000px;
-  margin-top: 31px;
-  left: 431px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+#adjectiveimg
+{
+  position: relative;
+  display: inline;
+  float: left;
+  left: 450px;
 }
 
 #buttonu255
@@ -1066,13 +1087,7 @@ p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
   margin: 14px -10000px 0px 0px;
 }
 
-#u1381-22
-{
-  z-index: 29;
-  position: fixed;
-  top: 252px;
-  left: 547px;
-}
+
 
 #pabout
 {
