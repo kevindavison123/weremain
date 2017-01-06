@@ -7,7 +7,7 @@ import {RouterModule, Routes} from '@angular/router';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './pages/about/about.component';
 import { BlogComponent } from './pages/blog/blog.component';
-import { GetInvolvedComponent } from './pages/get-involved/get.involved.component';
+import { DonateComponent } from './pages/donate/donate.component';
 import { SocialComponent } from './pages/social-media/social.media.component';
 import { StoriesComponent} from './pages/stories/stories.component';
 import { IssuesComponent} from './pages/issues/issues.component';
@@ -28,7 +28,7 @@ const appRoutes: Routes = [
     AppComponent,
     AboutComponent,
     BlogComponent,
-    GetInvolvedComponent,
+    DonateComponent,
     SocialComponent,
     StoriesComponent,
     IssuesComponent,
