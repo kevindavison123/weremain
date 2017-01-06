@@ -6,18 +6,17 @@ import {RouterModule, Routes} from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './pages/about/about.component';
-import { BlogComponent } from './pages/blog/blog.component';
+import { NewsComponent } from './pages/news/news.component';
 import { DonateComponent } from './pages/donate/donate.component';
 import { SocialComponent } from './pages/social-media/social.media.component';
-import { StoriesComponent} from './pages/stories/stories.component';
-import { IssuesComponent} from './pages/issues/issues.component';
+import { CausesComponent} from './pages/causes/causes.component';
 import { HomeComponent} from './pages/home/home.component';
 
 const appRoutes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
-  {path: 'news', component:  BlogComponent},
-  {path: 'causes', component: IssuesComponent}
+  {path: 'news', component:  NewsComponent},
+  {path: 'causes', component: CausesComponent}
 
 
 ];
@@ -27,11 +26,10 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     AboutComponent,
-    BlogComponent,
+    NewsComponent,
     DonateComponent,
     SocialComponent,
-    StoriesComponent,
-    IssuesComponent,
+    CausesComponent,
     HomeComponent
   ],
   imports: [
