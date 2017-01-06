@@ -11,14 +11,12 @@ import { GetInvolvedComponent } from './pages/get-involved/get.involved.componen
 import { SocialComponent } from './pages/social-media/social.media.component';
 import { StoriesComponent} from './pages/stories/stories.component';
 import { IssuesComponent} from './pages/issues/issues.component';
+import { HomeComponent} from './pages/home/home.component';
 
 const appRoutes: Routes = [
-  {path: 'home', redirectTo: '',component: AppComponent},
-  {path: 'about', component: AboutComponent},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: 'home', component: HomeComponent},
   {path: 'blog', component:  BlogComponent},
-  {path: 'donate', component: GetInvolvedComponent},
-  {path: 'contact', component: SocialComponent},
-  {path: 'stories', component: StoriesComponent},
   {path: 'issues', component: IssuesComponent}
 
 
@@ -33,7 +31,8 @@ const appRoutes: Routes = [
     GetInvolvedComponent,
     SocialComponent,
     StoriesComponent,
-    IssuesComponent
+    IssuesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
