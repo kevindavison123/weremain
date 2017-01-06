@@ -16,8 +16,8 @@ import { HomeComponent} from './pages/home/home.component';
 const appRoutes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
-  {path: 'blog', component:  BlogComponent},
-  {path: 'issues', component: IssuesComponent}
+  {path: 'news', component:  BlogComponent},
+  {path: 'causes', component: IssuesComponent}
 
 
 ];
