@@ -8,18 +8,19 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './pages/about/about.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { GetInvolvedComponent } from './pages/get-involved/get.involved.component';
-import { PartnersComponent } from './pages/partners/partners.component';
 import { SocialComponent } from './pages/social-media/social.media.component';
 import { StoriesComponent} from './pages/stories/stories.component';
+import { IssuesComponent} from './pages/issues/issues.component';
 
 const appRoutes: Routes = [
   {path: 'home', redirectTo: '',component: AppComponent},
   {path: 'about', component: AboutComponent},
   {path: 'blog', component:  BlogComponent},
-  {path: 'get-involved', component: GetInvolvedComponent},
-  {path: 'donatories', component: PartnersComponent},
-  {path: 'socials', component: SocialComponent},
-  {path: 'stories', component: StoriesComponent}
+  {path: 'donate', component: GetInvolvedComponent},
+  {path: 'contact', component: SocialComponent},
+  {path: 'stories', component: StoriesComponent},
+  {path: 'issues', component: IssuesComponent}
+
 
 ];
 
@@ -30,9 +31,9 @@ const appRoutes: Routes = [
     AboutComponent,
     BlogComponent,
     GetInvolvedComponent,
-    PartnersComponent,
     SocialComponent,
-    StoriesComponent
+    StoriesComponent,
+    IssuesComponent
   ],
   imports: [
     BrowserModule,
