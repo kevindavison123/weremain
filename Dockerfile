@@ -10,6 +10,11 @@ WORKDIR /usr/src/weremain
 
 # Install application dependencies
 COPY package.json /usr/src/weremain/
+
+#link some node directories because node-sass is dumb
+RUN ln -sf /usr/bin/nodejs /usr/bin/node
+
+#install npm
 RUN npm install
 
 COPY . /usr/src/weremain

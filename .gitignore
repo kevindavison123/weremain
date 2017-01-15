@@ -36,8 +36,14 @@ testem.log
 /e2e/*.js
 /e2e/*.map
 
+#deployment stuff
+aws*.zip
+
 #System Files
 .DS_Store
 Thumbs.db
 
-
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
