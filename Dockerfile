@@ -4,12 +4,16 @@ MAINTAINER Kyle Davison <kdavison@gmail.com>
 
 RUN apt-get update
 
-RUN mkdir /weremain
-WORKDIR /weremain
-COPY . /weremain
+# idk if this is really the best place...
+RUN mkdir -p /usr/src/weremain
+WORKDIR /usr/src/weremain
 
+# Install application dependencies
+COPY package.json /usr/src/weremain/
 RUN npm install
+
+COPY . /usr/src/weremain
 
 EXPOSE 4200
 
-ENTRYPOINT ["node", "server.js"]
+CMD ["npm", "start" ]
