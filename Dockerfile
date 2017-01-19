@@ -12,7 +12,7 @@ WORKDIR /usr/src/weremain
 COPY package.json /usr/src/weremain/
 
 #link some node directories because node-sass is dumb
-RUN ln -sf /usr/bin/nodejs /usr/bin/node
+#RUN ln -sf /usr/bin/nodejs /usr/bin/node
 
 #install npm
 RUN npm install
