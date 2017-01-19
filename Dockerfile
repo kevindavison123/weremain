@@ -5,19 +5,16 @@ MAINTAINER Kyle Davison <kdavison@gmail.com>
 RUN apt-get update
 
 # idk if this is really the best place...
-RUN mkdir -p /usr/src/weremain
-WORKDIR /usr/src/weremain
+ENV APP_NAME weremain
+ENV SERVER_ROOT_PATH /srv/${APP_NAME}
 
-# Install application dependencies
-COPY package.json /usr/src/weremain/
-
-#link some node directories because node-sass is dumb
-#RUN ln -sf /usr/bin/nodejs /usr/bin/node
+RUN mkdir -p ${SERVER_ROOT_PATH}
+WORKDIR ${SERVER_ROOT_PATH}
+COPY . ${SERVER_ROOT_PATH}
 
 #install npm
+RUN npm install -g angular-cli@latest
 RUN npm install
-
-COPY . /usr/src/weremain
 
 EXPOSE 4200
 

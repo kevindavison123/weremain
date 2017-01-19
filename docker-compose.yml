@@ -1,12 +1,8 @@
 version: '2'
 services:
-  wereamin:
+  weremain:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
       - "4200:4200"
-    volumes:
-      - .:/wereamin
-  redis:
-    image: redis

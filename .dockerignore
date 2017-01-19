@@ -2,9 +2,11 @@
 .gitignore
 README.md
 docker-compose.yml
+Dockerfile
+useful-commands.md
 pom.xml
 node_modules
 npm-debug.log
 docs/
-
-
+.elasticbeanstalk/
+*.zip
