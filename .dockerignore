@@ -8,5 +8,6 @@ pom.xml
 node_modules
 npm-debug.log
 docs/
+.kubernetes
 .elasticbeanstalk/
 *.zip
