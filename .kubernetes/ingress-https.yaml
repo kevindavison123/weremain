@@ -3,9 +3,11 @@ kind: Ingress
 metadata:
   name: ingress-https
   annotations:
+#this disallows
     kubernetes.io/ingress.allow-http: "false"
 spec:
   tls:
+#name of the secret defined in secret.yaml
     - secretName: weremain-secret
   backend:
     serviceName: frontend-service-http
