@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-https
+  annotations:
+    kubernetes.io/ingress.allow-http: "false"
+spec:
+  tls:
+    - secretName: weremain-secret
+  backend:
+    serviceName: frontend-service-http
+    servicePort: 80
