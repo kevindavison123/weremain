@@ -11,3 +11,6 @@ docs/
 .kubernetes
 .elasticbeanstalk/
 *.zip
+
+# REMOVE LATER #
+WeRemainProject
