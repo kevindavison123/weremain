@@ -9,7 +9,7 @@ metadata:
 spec:
   # tls:
   # - hosts:
-  #   - echo.example.com
+  #   - weremainfund.org
   #   secretName: weremainfund-tls
   rules:
   - host: weremainfund.org

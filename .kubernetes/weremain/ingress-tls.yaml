@@ -10,6 +10,7 @@ spec:
   tls:
   - hosts:
     - weremainfund.org
+    - www.weremainfund.org
     secretName: weremainfund-tls
   rules:
   - host: weremainfund.org

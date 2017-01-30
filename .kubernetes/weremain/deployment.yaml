@@ -11,7 +11,7 @@ spec:
         app: weremainfund
     spec:
       containers:
-      - image: #gcr.io/google_containers/echoserver:1.0
+      - image: gcr.io/black-network-156417/weremain-node:v2
         imagePullPolicy: Always
         name: weremainfund
         ports:
