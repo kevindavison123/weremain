@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: weremainfund
+  namespace: weremainfund
+  annotations:
+    kubernetes.io/tls-acme: "true"
+    kubernetes.io/ingress.class: "gce"
+spec:
+  tls:
+  - hosts:
+    - weremainfund.org
+    secretName: weremainfund-tls
+  rules:
+  - host: weremainfund.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: weremainfund
+          servicePort: 80
