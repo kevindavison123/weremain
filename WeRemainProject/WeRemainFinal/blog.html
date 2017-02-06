@@ -27,6 +27,16 @@ if (loc.indexOf('http://')==0){
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
+
+  <script language="JavaScript">
+function redirectHttpToHttps()
+{
+    var httpURL= window.location.hostname + window.location.pathname + window.location.search;
+    var httpsURL= "https://" + httpURL;
+    window.location = httpsURL;
+}
+redirectHttpToHttps();
+</script>
   <![endif]-->
    </head>
  <body>

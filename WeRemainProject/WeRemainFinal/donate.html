@@ -6,12 +6,15 @@
    if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "jquery.musemenu.js", "jquery.scrolleffects.js", "donate.css"], "outOfDate":[]};
 </script>
 
-   <script>
-   var loc = window.location.href+'';
-if (loc.indexOf('http://')==0){
-    window.location.href = loc.replace('http://','https://');
+   <script language="JavaScript">
+function redirectHttpToHttps()
+{
+    var httpURL= window.location.hostname + window.location.pathname + window.location.search;
+    var httpsURL= "https://" + httpURL;
+    window.location = httpsURL;
 }
- </script>
+redirectHttpToHttps();
+</script>
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2015.1.1.343"/>
