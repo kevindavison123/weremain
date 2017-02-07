@@ -1,7 +1,7 @@
 .version.protecting_our_democracy /* version checker */
 {
-	color: #000011;
-	background-color: #1FA5C8;
+	color: #0000E2;
+	background-color: #DBB55A;
 }
 
 #page
@@ -117,10 +117,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	font-size: 20px;
 	letter-spacing: 3px;
 	color: #5E5B5B;
+	line-height: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
@@ -168,7 +168,7 @@
 #u38865
 {
 	width: 281px;
-	background: #FFFFFF url("../images/u37514-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#E6E4E4),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#E6E4E4 ,#FFFFFF 46%);
 	background: linear-gradient(to right,#E6E4E4 ,#FFFFFF 46%);
@@ -180,7 +180,7 @@
 
 #u38865:hover
 {
-	background: #FFFFFF url("../images/u37514-r-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-r-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#AAAAAA),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#AAAAAA ,#FFFFFF 46%);
 	background: linear-gradient(to right,#AAAAAA ,#FFFFFF 46%);
@@ -197,8 +197,8 @@
 	padding-left: 2px;
 	padding-top: 4px;
 	padding-right: 2px;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -227,7 +227,7 @@
 #u38839
 {
 	width: 302px;
-	background: #FFFFFF url("../images/u37514-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#E6E4E4),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#E6E4E4 ,#FFFFFF 46%);
 	background: linear-gradient(to right,#E6E4E4 ,#FFFFFF 46%);
@@ -239,7 +239,7 @@
 
 #u38839:hover
 {
-	background: #FFFFFF url("../images/u37514-r-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-r-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#AAAAAA),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#AAAAAA ,#FFFFFF 46%);
 	background: linear-gradient(to right,#AAAAAA ,#FFFFFF 46%);
@@ -256,8 +256,8 @@
 	padding-left: 2px;
 	padding-top: 4px;
 	padding-right: 2px;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -286,7 +286,7 @@
 #u38846
 {
 	width: 219px;
-	background: #FFFFFF url("../images/u37514-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#E6E4E4),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#E6E4E4 ,#FFFFFF 46%);
 	background: linear-gradient(to right,#E6E4E4 ,#FFFFFF 46%);
@@ -298,7 +298,7 @@
 
 #u38846:hover
 {
-	background: #FFFFFF url("../images/u37514-r-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-r-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#AAAAAA),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#AAAAAA ,#FFFFFF 46%);
 	background: linear-gradient(to right,#AAAAAA ,#FFFFFF 46%);
@@ -315,8 +315,8 @@
 	padding-left: 2px;
 	padding-top: 4px;
 	padding-right: 2px;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -345,7 +345,7 @@
 #u38872
 {
 	width: 252px;
-	background: #FFFFFF url("../images/u37514-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#E6E4E4),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#E6E4E4 ,#FFFFFF 46%);
 	background: linear-gradient(to right,#E6E4E4 ,#FFFFFF 46%);
@@ -357,7 +357,7 @@
 
 #u38872:hover
 {
-	background: #FFFFFF url("../images/u37514-r-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-r-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#AAAAAA),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#AAAAAA ,#FFFFFF 46%);
 	background: linear-gradient(to right,#AAAAAA ,#FFFFFF 46%);
@@ -374,8 +374,8 @@
 	padding-left: 2px;
 	padding-top: 4px;
 	padding-right: 2px;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -404,7 +404,7 @@
 #u38851
 {
 	width: 421px;
-	background: #FFFFFF url("../images/u37514-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#E6E4E4),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#E6E4E4 ,#FFFFFF 46%);
 	background: linear-gradient(to right,#E6E4E4 ,#FFFFFF 46%);
@@ -416,7 +416,7 @@
 
 #u38851:hover
 {
-	background: #FFFFFF url("../images/u37514-r-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-r-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#AAAAAA),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#AAAAAA ,#FFFFFF 46%);
 	background: linear-gradient(to right,#AAAAAA ,#FFFFFF 46%);
@@ -433,8 +433,8 @@
 	padding-left: 2px;
 	padding-top: 4px;
 	padding-right: 2px;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -470,7 +470,7 @@
 #u38858
 {
 	width: 208px;
-	background: #FFFFFF url("../images/u37514-grad.png") repeat-y left top;
+	background: #FFFFFF url("../images/u37740-grad.png") repeat-y left top;
 	background: -webkit-gradient(linear, left center, right center, from(#E6E4E4),color-stop(46%, #FFFFFF));
 	background: -webkit-linear-gradient(left,#E6E4E4 ,#FFFFFF 46%);
 	background: linear-gradient(to right,#E6E4E4 ,#FFFFFF 46%);
@@ -501,8 +501,8 @@
 	padding-left: 2px;
 	padding-top: 4px;
 	padding-right: 2px;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -564,10 +564,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	font-size: 20px;
 	letter-spacing: 3px;
 	color: #5E5B5B;
+	line-height: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
@@ -634,10 +634,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	font-size: 20px;
 	letter-spacing: 3px;
 	color: #5E5B5B;
+	line-height: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
@@ -697,10 +697,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	font-size: 20px;
 	letter-spacing: 3px;
 	color: #5E5B5B;
+	line-height: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
@@ -795,8 +795,8 @@
 	width: 920px;
 	min-height: 45px;
 	background-color: transparent;
-	line-height: 48px;
 	color: #000000;
+	line-height: 48px;
 	font-size: 40px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
@@ -911,8 +911,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -987,8 +987,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1069,8 +1069,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1145,8 +1145,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1227,8 +1227,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1301,8 +1301,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;

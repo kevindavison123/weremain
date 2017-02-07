@@ -12,8 +12,8 @@
   <meta name="viewport" content="width=380"/>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?239192557"/>
-  <link rel="stylesheet" type="text/css" href="css/master_menu.css?3943034532"/>
-  <link rel="stylesheet" type="text/css" href="css/about-us.css?3868804948" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_menu.css?205636092"/>
+  <link rel="stylesheet" type="text/css" href="css/about-us.css?311577459" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
@@ -165,7 +165,7 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-$('#u47620-4').registerOpacityScrollEffect([{"fade":216,"opacity":0,"in":[-Infinity,55.34]},{"opacity":100,"in":[55.34,55.34]},{"fade":76,"opacity":100,"in":[55.34,Infinity]}]);/* scroll effect */
+$('#u47620-4').registerOpacityScrollEffect([{"opacity":0,"in":[-Infinity,55.34],"fade":216},{"opacity":100,"in":[55.34,55.34]},{"opacity":100,"in":[55.34,Infinity],"fade":76}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
