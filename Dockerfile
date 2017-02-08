@@ -15,6 +15,7 @@ COPY . ${WEBROOT}
 #install npm
 RUN npm install -g angular-cli@latest
 RUN npm install
+RUN npm install express --save
 RUN node httpsServer.js
 
 EXPOSE 4200
