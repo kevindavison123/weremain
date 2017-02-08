@@ -1,6 +1,6 @@
 var http       = require('http');
 var express    = require('express');
-var HTTP_PORT  = 80;
+var HTTP_PORT  = 4200;
 var HTTPS_PORT = 443;
 
 var http_app = express();
