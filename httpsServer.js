@@ -4,7 +4,6 @@ var app         = express()
 var fs          = require('fs')
 
 
-var static_root = __dirname + '/';
 app.set('http_port', (process.env.PORT || 4200));
 app.set('https_port', 443);
 
@@ -21,18 +20,18 @@ app.all('/*', function(req, res, next) {
   }
 })
 */
-
-app.use(express.static(static_root));
-
 app.use(function(req, res, next){
-  var accept = req.accepts('html');
-  if(accept !== 'html') {
-    console.log('serve some html!');
-    return next();  
+  if(req.secure)
+  {
+    next();
   }
-
-  fs.createReadStream(static_root + 'index.html').pipe(res);
+  else
+  {
+    res.redirect('https://' + req.headers.host + req.url);
+  }
 });
+
+app.use(express.statis(__dirname+ '/src/app'));
 
 app.listen(app.get('http_port'), function() {
   console.log('serving on port ', app.get('http_port'));
