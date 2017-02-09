@@ -2,8 +2,6 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: ingress-tls
-  annotations:
-    kubernetes.io/ingress.allow-http: "false"
 spec:
   tls:
   - hosts:
