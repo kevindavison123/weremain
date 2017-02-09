@@ -1,93 +1,65 @@
-# Weremain
+<img width="150" src="https://i.cloudup.com/zfY6lL7eFa-3000x3000.png" />
+<img width="50" src="https://angular.io/resources/images/logos/angular2/angular.svg" />
 
-## Using Git and Github
+## Angular2 Express Starter ( Advanced )
 
-### Cloning
+- Angular 2 ( 2.x )
+- ExpressJS ( 4.x - with compression )
+- Webpack ( angular-cli )
 
-`git clone git@github.com:kevindavison123/weremain.git weremain`
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-This will copy the project into a folder called weremain in the current directory you are in. 
+## Concepts
 
-### Branching 
+- Redux ( NgRx/Store - with server calls)
+- Smart & dumb components
+- AOT: Ahead-of-Time compilation
+- Advanced routing ( lazy loading, router outlets...)
 
-`git checkout -b my-branch-name` Will create a branch based off of the current branch you are using. **NOTE** Always use master to create a new branch.
+## Support
 
-`git branch` will tell you what branch you are in. 
+If you’d like to support me developing this project you’re able to do so by donating on PayPal or if you have any special needs/ feature requests don’t hesitate to send me an email.
 
-`git checkout my-existing-branch` will switch to a branch that already exists. 
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/ngsemantic)
 
-`git fetch origin [master]` will fetch any branches from the repo that you wish to work on.
 
-### Committing and Pushing to your branch
+## Install / Development
 
-`git add -A` will add all unversioned files to be committed. 
+```bash
+git clone https://github.com/vladotesanovic/angular2-express-starter
+cd angular2-express-starter
 
-`git commit -m "Add a description about what changes you made"` This will save your changes in your local repo on your computer
+# Install dependencies
+npm install
 
-`git push origin my-branch-name` This will push your commit(s) to the remote repo under your branch name.
+# start server
+npm run start
 
-**NOTE** DO NOT PUSH TO MASTER UNDER ANY CIRCUMSTANCES. 
+# Client url: http://localhost:4200
+# Application ( epxress ) API: http://localhost:4300
+```
 
-## Project Structure 
+Install Redux DevTools chrome extenstion:
 
-Almost all HTML, TS, and CSS files will under the `src/app` folder directory. The exception is `index.html`, however that will be rarely touched. 
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
 
-The `home` page will be under the name pattern `app.component.`, any auxilary pages will be under the `src/app/pages` directory. 
+## Build / Production
 
-From here a single page will have three file types, a HTML, CSS, and TS (type script) file in the same hierarchy. For example:
+```bash
 
-`/src/app/pages`
-  
-  `-/about`
-  
-  `--about.component.html`
-  
-  `--about.component.css`
-  
-  `--about.component.ts`
-  
-  That is the structural pattern for all the pages in this project.
-  
-  **NOTE** Do not add work to the `/htmlwork/` directory as we are migrating that to the angular2 structure. Any and all work will be deleted. 
-  
+npm run build
 
-## NPM (Node Package Manager)
+## Deploy dist folder to app server
 
-Under the project directory install `npm` and the `npm angular2` in order to run and build the website. 
-`npm start` will compile and start the project on `localhost:4200`. There you will be able to see the changes. 
+Structure of dist folder:
 
-For more info check out how to install and run using `npm` 
+/dist/server <-- expressjs
+/dist/client <-- angular2
 
-# Ingore the rest from here, npm does the job you want 
+```
 
-## Building and Running project with Angular2
+## Note
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
+All html and css are from: http://www.w3schools.com/howto/
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to Github Pages
-
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

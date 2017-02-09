@@ -1,10 +1,10 @@
-import { WeremainPage } from './app.po';
+import { TmpPage } from './app.po';
 
-describe('weremain App', function() {
-  let page: WeremainPage;
+describe('tmp App', function() {
+  let page: TmpPage;
 
   beforeEach(() => {
-    page = new WeremainPage();
+    page = new TmpPage();
   });
 
   it('should display message saying app works', () => {

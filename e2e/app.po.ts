@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class WeremainPage {
+export class TmpPage {
   navigateTo() {
     return browser.get('/');
   }
