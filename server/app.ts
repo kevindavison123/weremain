@@ -17,28 +17,25 @@ app.use(json());
 app.use(compression());
 app.use(urlencoded({ extended: true }));
 
-if (app.get('env') === 'production') {
-  app.use(function (req, res) {
+
+  app.use(function (req, res,next) {
     if(req.originalUrl.includes('/healthCheck'))
     {
       res.sendStatus(200);
     }
     else{
       // http -> https redirect
-      app.all('*', function(req, res, next) {
-        //http://stackoverflow.com/questions/32952085/express-js-redirect-to-https-and-send-index-html
-        if(req.headers["x-forwarded-proto"] === "https"){
-          return next();
-        };
+      //http://stackoverflow.com/questions/32952085/express-js-redirect-to-https-and-send-index-html
+      if(req.headers["x-forwarded-proto"] === "https"){
+        return next();
+        }
         res.redirect('https://' + req.hostname + req.url);
-      });
-
     }
   });
 
 app.use(express.static(path.join(__dirname, '/../client')));
 
-}
+
 
 // api routes
 /**  
