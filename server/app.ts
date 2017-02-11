@@ -19,12 +19,12 @@ app.use(urlencoded({ extended: true }));
 
 if (app.get('env') === 'production') {
   app.use(function (req, res) {
-    if(req.oldURL.contains('healthCheck'))
+    if(req.originalUrl.includes('/healthCheck'))
     {
-      res.send('200');
+      res.sendStatus(200);
     }
     else{
-      //http -> https redirect
+      // http -> https redirect
       app.all('*', function(req, res, next) {
         //http://stackoverflow.com/questions/32952085/express-js-redirect-to-https-and-send-index-html
         if(req.headers["x-forwarded-proto"] === "https"){
