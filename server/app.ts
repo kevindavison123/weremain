@@ -18,18 +18,26 @@ app.use(compression());
 app.use(urlencoded({ extended: true }));
 
 if (app.get('env') === 'production') {
-/*
-  //http -> https redirect
-  app.all('*', function(req, res, next) {
-  //http://stackoverflow.com/questions/32952085/express-js-redirect-to-https-and-send-index-html
-    if(req.headers["x-forwarded-proto"] === "https"){
-      return next();
-    };
-    res.redirect('https://' + req.hostname + req.url);
+  app.use(function (req, res) {
+    if(req.oldURL.contains('healthCheck'))
+    {
+      res.send('200');
+    }
+    else{
+      //http -> https redirect
+      app.all('*', function(req, res, next) {
+        //http://stackoverflow.com/questions/32952085/express-js-redirect-to-https-and-send-index-html
+        if(req.headers["x-forwarded-proto"] === "https"){
+          return next();
+        };
+        res.redirect('https://' + req.hostname + req.url);
+      });
+
+    }
   });
-*/
-  //this serves the actual static content
-  app.use(express.static(path.join(__dirname, '/../client')));
+
+app.use(express.static(path.join(__dirname, '/../client')));
+
 }
 
 // api routes
