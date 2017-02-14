@@ -17,10 +17,6 @@ COPY . ${WEBROOT}
 
 #install npm
 RUN \
-  npm install -g angular-cli@latest && \
-  npm install -g typescript && \
-### don't need this for 'production'
-#  npm install -g nodemon && \
   npm install && \
   npm run build
 
@@ -29,3 +25,4 @@ ENV PORT 4200
 EXPOSE 4200
 
 ENTRYPOINT ["node", "dist/server/bin/www.js"]
+#ENTRYPOINT ["sh", "-c", "while [ 1 ]; do sleep 120; done;"]
