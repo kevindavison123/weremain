@@ -8,8 +8,6 @@ ENV WEBROOT /srv/www/${APP}
 
 RUN \
   apt-get update && \
-### node-sass needs this for idk why
-  ln -s /usr/bin/nodejs /usr/bin/node && \
   mkdir -p ${WEBROOT}
 
 WORKDIR ${WEBROOT}

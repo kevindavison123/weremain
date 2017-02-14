@@ -1,6 +1,7 @@
 version: '2'
 services:
-  aes-quickstart:
+  weremainfund.org:
+    image: weremainfund.org
     build:
       context: .
       dockerfile: Dockerfile
