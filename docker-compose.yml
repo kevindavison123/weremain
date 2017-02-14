@@ -3,6 +3,8 @@ services:
   weremainfund.org:
     image: weremainfund.org
     build:
+      args:
+        APP: weremainfund.org
       context: .
       dockerfile: Dockerfile
     ports:

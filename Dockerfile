@@ -3,7 +3,7 @@ FROM node:latest
 MAINTAINER Kyle Davison <kdavison@gmail.com>
 
 # idk if this is really the best place...
-ENV APP development.org
+ARG APP
 ENV WEBROOT /srv/www/${APP}
 
 RUN \
