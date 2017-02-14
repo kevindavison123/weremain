@@ -3,21 +3,23 @@ FROM node:latest
 MAINTAINER Kyle Davison <kdavison@gmail.com>
 
 ARG APP
+ARG NODE_ENV
 ARG PORT
 
+ENV WEBROOT /srv/www/${APP}
+ENV NODE_ENV ${NODE_ENV}
 ENV PORT ${PORT}
-EXPOSE ${PORT}
 
 RUN apt-get update
 
-WORKDIR /srv/www/${APP}
+WORKDIR ${WEBROOT}
+COPY package.json ${WEBROOT}
 
 #install npm
-RUN \
-  npm install && \
-  npm run build
+RUN npm install
 
-ENV NODE_ENV production
+COPY . ${WEBROOT}
 
+ENTRYPOINT ["./serve.sh"]
 #ENTRYPOINT ["node", "dist/server/bin/www.js"]
-ENTRYPOINT ["sh", "-c", "while [ 1 ]; do sleep 120; done;"]
+#ENTRYPOINT ["sh", "-c", "while [ 1 ]; do sleep 120; done;"]

@@ -5,11 +5,17 @@ services:
     build:
       args:
         APP: weremainfund.org
-        PORT: ${PORT:-4200}
+        PORT: ${PORT}
+        NODE_ENV: ${NODE_ENV}
       context: .
       dockerfile: Dockerfile
+    expose:
+      - "4200" #/*
+      - "4300" #/api
     ports:
-      - "80:${PORT:-4200}"
-      - "443:${PORT:-4200}"
+      - "80:4200"
+      - "443:4200"
+      - "4300:4300"
     volumes:
-      - .:/srv/www/weremainfund.org
+      - ./src:/srv/www/weremainfund.org/src
+      - ./server:/srv/www/weremainfund.org/server

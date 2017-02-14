@@ -17,25 +17,23 @@ app.use(json());
 app.use(compression());
 app.use(urlencoded({ extended: true }));
 
+app.all('/healthCheck', function(req, res) {
+  res.sendStatus(200);
+});
 
-  app.use(function (req, res,next) {
-    if(req.originalUrl.includes('/healthCheck'))
-    {
-      res.sendStatus(200);
+if('production' === process.env.NODE_ENV) {
+  app.all('*', function(req, res) {
+    if(req.headers["x-forwarded-proto"] === "https") {
+      return next();
     }
-    else{
-      // http -> https redirect
-      //http://stackoverflow.com/questions/32952085/express-js-redirect-to-https-and-send-index-html
-      if(req.headers["x-forwarded-proto"] === "https"){
-        return next();
-        }
-        res.redirect('https://' + req.hostname + req.url);
-    }
+    res.redirect('https://' + req.hostname + req.url);
   });
-
-app.use(express.static(path.join(__dirname, '/../client')));
-
-
+  
+  app.use(express.static(path.join(__dirname, '/../client')));
+}
+/*********************************************************************/
+/* place all other routes below this so they get the https redirect! */
+/*********************************************************************/
 
 // api routes
 /**  
