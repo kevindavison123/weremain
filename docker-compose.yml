@@ -1,7 +1,7 @@
 version: '2.1'
 services:
   weremainfund.org:
-    image: weremainfund.org
+    image: gcr.io/black-network-156417/weremainfund.org:production
     build:
       args:
         APP: weremainfund.org

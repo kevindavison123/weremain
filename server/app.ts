@@ -22,7 +22,7 @@ app.all('/healthCheck', function(req, res) {
 });
 
 if('production' === process.env.NODE_ENV) {
-  app.all('*', function(req, res) {
+  app.all('*', function(req, res, next) {
     if(req.headers["x-forwarded-proto"] === "https") {
       return next();
     }
