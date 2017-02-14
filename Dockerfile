@@ -2,8 +2,11 @@ FROM node:latest
 
 MAINTAINER Kyle Davison <kdavison@gmail.com>
 
-# idk if this is really the best place...
 ARG APP
+ARG PORT
+
+ENV PORT ${PORT}
+EXPOSE ${PORT}
 ENV WEBROOT /srv/www/${APP}
 
 RUN \
@@ -19,8 +22,6 @@ RUN \
   npm run build
 
 ENV NODE_ENV production
-ENV PORT 4200
-EXPOSE 4200
 
 ENTRYPOINT ["node", "dist/server/bin/www.js"]
 #ENTRYPOINT ["sh", "-c", "while [ 1 ]; do sleep 120; done;"]

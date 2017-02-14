@@ -1,12 +1,13 @@
-version: '2'
+version: '2.1'
 services:
   weremainfund.org:
     image: weremainfund.org
     build:
       args:
         APP: weremainfund.org
+        PORT: ${PORT:-4200}
       context: .
       dockerfile: Dockerfile
     ports:
-      - "80:4200"
-      - "443:4200"
+      - "80:${PORT:-4200}"
+      - "443:${PORT:-4200}"
