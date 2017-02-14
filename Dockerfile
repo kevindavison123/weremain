@@ -7,14 +7,10 @@ ARG PORT
 
 ENV PORT ${PORT}
 EXPOSE ${PORT}
-ENV WEBROOT /srv/www/${APP}
 
-RUN \
-  apt-get update && \
-  mkdir -p ${WEBROOT}
+RUN apt-get update
 
-WORKDIR ${WEBROOT}
-COPY . ${WEBROOT}
+WORKDIR /srv/www/${APP}
 
 #install npm
 RUN \
@@ -23,5 +19,5 @@ RUN \
 
 ENV NODE_ENV production
 
-ENTRYPOINT ["node", "dist/server/bin/www.js"]
-#ENTRYPOINT ["sh", "-c", "while [ 1 ]; do sleep 120; done;"]
+#ENTRYPOINT ["node", "dist/server/bin/www.js"]
+ENTRYPOINT ["sh", "-c", "while [ 1 ]; do sleep 120; done;"]

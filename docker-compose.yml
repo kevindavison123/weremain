@@ -11,3 +11,5 @@ services:
     ports:
       - "80:${PORT:-4200}"
       - "443:${PORT:-4200}"
+    volumes:
+      - .:/srv/www/weremainfund.org
