@@ -17,7 +17,8 @@ import 'rxjs/add/operator/map';
     './css/protecting-muslim-american-rights.css',
     './css/protecting-our-democracy.css',
     './css/protecting-women_s-health-and-reproductive-justice.css',
-    './css/protecting-womens-health-and-reproductive-justice.css']
+    './css/protecting-womens-health-and-reproductive-justice.css'
+  ]
 })
 export class AppComponent {
 
