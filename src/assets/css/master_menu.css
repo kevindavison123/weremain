@@ -12,10 +12,10 @@
 #u25776-7
 {
 	background-color: transparent;
-	font-size: 22px;
-	letter-spacing: 2px;
-	color: #FFFFFF;
 	line-height: 29px;
+	font-size: 22px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 }
@@ -50,19 +50,6 @@
 	line-height: 23px;
 }
 
-#u45735,#u45725
-{
-	background-color: transparent;
-}
-
-#u25482-4
-{
-	background-color: transparent;
-	font-size: 14px;
-	text-align: justify;
-	color: #ECECEC;
-}
-
 #u28872
 {
 	border-width: 0px;
@@ -71,7 +58,7 @@
 	border-radius: 34px;
 }
 
-#u45753,#u28867,#widgetu35064
+#u45753,#u58482,#u58479,#u28867,#widgetu35064
 {
 	border-width: 0px;
 	border-color: transparent;
@@ -83,10 +70,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	color: #6B6B6B;
 	line-height: 20px;
-	font-size: 20px;
 	text-align: left;
+	font-size: 20px;
+	color: #6B6B6B;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 }
 
@@ -97,8 +84,8 @@
 	border-color: #C4C4C4;
 	background-color: #F2F2F2;
 	line-height: 20px;
-	font-size: 20px;
 	color: #C4C4C4;
+	font-size: 20px;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-style: italic;
 }
@@ -150,10 +137,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	color: #6B6B6B;
 	line-height: 20px;
-	font-size: 20px;
 	text-align: left;
+	font-size: 20px;
+	color: #6B6B6B;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 }
 
@@ -164,8 +151,8 @@
 	border-color: #C4C4C4;
 	background-color: #F2F2F2;
 	line-height: 20px;
-	font-size: 20px;
 	color: #C4C4C4;
+	font-size: 20px;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-style: italic;
 }
@@ -211,8 +198,8 @@
 	opacity: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
-	font-size: 12px;
 	line-height: 14px;
+	font-size: 12px;
 	font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;
 }
 
@@ -231,8 +218,8 @@
 	opacity: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
-	color: #FF0000;
 	line-height: 14px;
+	color: #FF0000;
 	font-size: 12px;
 	font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;
 }
@@ -252,8 +239,8 @@
 	opacity: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
-	color: #00FF00;
 	line-height: 12px;
+	color: #00FF00;
 	font-size: 12px;
 	font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;
 }
@@ -311,10 +298,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	color: #6B6B6B;
 	line-height: 20px;
-	font-size: 20px;
 	text-align: left;
+	font-size: 20px;
+	color: #6B6B6B;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 }
 
@@ -336,8 +323,8 @@
 	border-color: #C4C4C4;
 	background-color: #F2F2F2;
 	line-height: 20px;
-	font-size: 20px;
 	color: #C4C4C4;
+	font-size: 20px;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-style: italic;
 }
@@ -439,9 +426,9 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 20px;
 	text-align: center;
+	color: #FFFFFF;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 }
 
@@ -449,4 +436,57 @@
 {
 	cursor: pointer;
 }
+
+#u45735,#u45725
+{
+	background-color: transparent;
+}
+
+#u25482-4
+{
+	background-color: transparent;
+	text-align: justify;
+	font-size: 14px;
+	color: #ECECEC;
+}
+
+#buttonu58473
+{
+	border-color: #5E5B5B;
+	background-color: #61AB59;
+	border-radius: 65px;
+}
+
+#pbuttonu58473:hover #buttonu58473
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #61AB59;
+	background-color: #FFFFFF;
+}
+
+#u58474-4
+{
+	background-color: transparent;
+	line-height: 48px;
+	text-align: center;
+	font-size: 40px;
+	color: #FFFFFF;
+	letter-spacing: 10px;
+	font-family: abel, sans-serif;
+	font-weight: 400;
+}
+
+#pbuttonu58473:hover #u58474-4 p
+{
+	color: #39A751;
+	visibility: inherit;
+}
+
+#pbuttonu58473.ButtonSelected #u58474-4 p
+{
+	color: #FFFFFF;
+	visibility: inherit;
+}
+
 

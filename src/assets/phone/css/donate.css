@@ -1,7 +1,7 @@
 .version.donate /* version checker */
 {
-	color: #0000EA;
-	background-color: #54F618;
+	color: #000006;
+	background-color: #E3CA42;
 }
 
 #page
@@ -18,7 +18,7 @@
 
 #page_position_content
 {
-	margin-bottom: -31px;
+	margin-bottom: -18px;
 	width: 100%;
 }
 
@@ -228,7 +228,7 @@
 	z-index: 39;
 	min-height: 278.50000000000045px;
 	padding-top: 22px;
-	padding-bottom: 259.49999999999955px;
+	padding-bottom: 246.49999999999955px;
 }
 
 #pu47213
@@ -317,8 +317,8 @@
 #u47072
 {
 	z-index: 40;
-	min-height: 65px;
-	padding-bottom: 6px;
+	min-height: 66px;
+	padding-bottom: 5px;
 }
 
 #u46927-4
@@ -327,7 +327,7 @@
 	min-height: 47px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 5px;
+	margin-top: 6px;
 	left: 18px;
 	width: 89.22%;
 }
@@ -335,8 +335,8 @@
 #u47072-bw
 {
 	z-index: 40;
-	min-height: 65px;
-	margin-top: 458px;
+	min-height: 66px;
+	margin-top: 475px;
 }
 
 #menuu51651
@@ -459,6 +459,7 @@ body
 {
 	position: relative;
 	min-width: 320px;
+	padding-bottom: 18px;
 }
 
 #pu46922,#u47213_img,#u47203_img,#u47193_img,#u46931-4_img
