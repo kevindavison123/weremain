@@ -1,7 +1,7 @@
 .version._404 /* version checker */
 {
 	color: #000008;
-	background-color: #697A45;
+	background-color: #800099;
 }
 
 #page
@@ -215,8 +215,8 @@
 	width: 260px;
 	min-height: 98px;
 	background-color: transparent;
-	text-align: center;
 	color: #3995A7;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-left: 60px;
@@ -322,11 +322,11 @@
 	width: 301px;
 	min-height: 27px;
 	background-color: transparent;
+	font-size: 20px;
+	letter-spacing: 10px;
+	color: #FFFFFF;
 	line-height: 24px;
 	text-align: center;
-	font-size: 20px;
-	color: #FFFFFF;
-	letter-spacing: 10px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 }
@@ -483,10 +483,10 @@
 	z-index: 73;
 	width: 320px;
 	background-color: transparent;
-	line-height: 36px;
-	text-align: center;
-	font-size: 30px;
 	color: #3995A7;
+	line-height: 36px;
+	font-size: 30px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -538,10 +538,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
-	text-align: center;
-	font-size: 20px;
 	color: #5E5B5B;
+	line-height: 24px;
+	font-size: 20px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -586,10 +586,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
-	text-align: center;
-	font-size: 20px;
 	color: #5E5B5B;
+	line-height: 24px;
+	font-size: 20px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -634,10 +634,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
-	text-align: center;
-	font-size: 20px;
 	color: #5E5B5B;
+	line-height: 24px;
+	font-size: 20px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -690,10 +690,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
-	text-align: center;
-	font-size: 20px;
 	color: #5E5B5B;
+	line-height: 24px;
+	font-size: 20px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;

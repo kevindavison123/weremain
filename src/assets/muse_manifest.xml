@@ -1,17 +1,17 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="weremainfund.org" resolutions="1x" timestamp="1487378195303">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="https://weremainfund.org" resolutions="1x" timestamp="1487825875811">
   <folder name="css">
     <file name="site_global.css" crc="239192557"/>
-    <file name="master_menu.css" crc="4075360584" ref="ensuring-environmental-justice:500:protecting-our-democracy:protecting-muslim-american-rights:index:protecting-undocumented-immigrants:donate:404:protecting-womens-health-and-reproductive-justice:protecting-lgbtqa--rights"/>
-    <file name="ensuring-environmental-justice.css" crc="3975931027" ref="ensuring-environmental-justice"/>
-    <file name="500.css" crc="134590980" ref="500"/>
-    <file name="protecting-our-democracy.css" crc="154174692" ref="protecting-our-democracy"/>
-    <file name="protecting-muslim-american-rights.css" crc="140699758" ref="protecting-muslim-american-rights"/>
-    <file name="index.css" crc="90123611" ref="index"/>
-    <file name="protecting-undocumented-immigrants.css" crc="209293652" ref="protecting-undocumented-immigrants"/>
-    <file name="donate.css" crc="500810940" ref="donate"/>
-    <file name="404.css" crc="340596412" ref="404"/>
-    <file name="protecting-womens-health-and-reproductive-justice.css" crc="4171033306" ref="protecting-womens-health-and-reproductive-justice"/>
-    <file name="protecting-lgbtqa--rights.css" crc="38176817" ref="protecting-lgbtqa--rights"/>
+    <file name="master_menu.css" crc="408480428" ref="index:protecting-lgbtqa--rights:donate:500:protecting-womens-health-and-reproductive-justice:protecting-our-democracy:protecting-muslim-american-rights:ensuring-environmental-justice:404:protecting-undocumented-immigrants"/>
+    <file name="index.css" crc="4018723676" ref="index"/>
+    <file name="protecting-lgbtqa--rights.css" crc="495415727" ref="protecting-lgbtqa--rights"/>
+    <file name="donate.css" crc="375722913" ref="donate"/>
+    <file name="500.css" crc="3882187311" ref="500"/>
+    <file name="protecting-womens-health-and-reproductive-justice.css" crc="3767584597" ref="protecting-womens-health-and-reproductive-justice"/>
+    <file name="protecting-our-democracy.css" crc="4012697764" ref="protecting-our-democracy"/>
+    <file name="protecting-muslim-american-rights.css" crc="3796309521" ref="protecting-muslim-american-rights"/>
+    <file name="ensuring-environmental-justice.css" crc="134674138" ref="ensuring-environmental-justice"/>
+    <file name="404.css" crc="4214087319" ref="404"/>
+    <file name="protecting-undocumented-immigrants.css" crc="3982982437" ref="protecting-undocumented-immigrants"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="484278746" ref="phone>index:phone>donate:phone>protecting-undocumented-immigrants:phone>protecting-muslim-american-rights:phone>protecting-lgbtqa--rights:phone>ensuring-environmental-justice:phone>protecting-our-democracy:phone>protecting-womens-health-and-reproductive-justice:phone>issues:phone>about-us:phone>404:phone>500:index:donate:protecting-womens-health-and-reproductive-justice:protecting-our-democracy:ensuring-environmental-justice:protecting-lgbtqa--rights:protecting-muslim-american-rights:protecting-undocumented-immigrants:404:500"/>
@@ -88,6 +88,7 @@
     <file name="u47622-4.png" crc="238459711" ref="phone>about-us"/>
     <file name="u47624-4.png" crc="4012747357" ref="phone>about-us"/>
     <file name="u47620-4.png" crc="390922354" ref="phone>about-us"/>
+    <file name="favicon.ico" crc="4198979813" ref="index"/>
     <file name="u4269-4.png" crc="4244702835" ref="index"/>
     <file name="u4270-4.png" crc="135641627" ref="index"/>
     <file name="u4268-4.png" crc="261840565" ref="index"/>
@@ -128,41 +129,41 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_menu.css" crc="3909308448" ref="phone>404:phone>protecting-undocumented-immigrants:phone>about-us:phone>protecting-muslim-american-rights:phone>protecting-lgbtqa--rights:phone>ensuring-environmental-justice:phone>protecting-our-democracy:phone>index:phone>protecting-womens-health-and-reproductive-justice:phone>donate:phone>500:phone>issues"/>
-      <file name="404.css" crc="141130309" ref="phone>404"/>
-      <file name="protecting-undocumented-immigrants.css" crc="403174840" ref="phone>protecting-undocumented-immigrants"/>
-      <file name="about-us.css" crc="3836123544" ref="phone>about-us"/>
-      <file name="protecting-muslim-american-rights.css" crc="210115270" ref="phone>protecting-muslim-american-rights"/>
-      <file name="protecting-lgbtqa--rights.css" crc="4274337811" ref="phone>protecting-lgbtqa--rights"/>
-      <file name="ensuring-environmental-justice.css" crc="3776625422" ref="phone>ensuring-environmental-justice"/>
-      <file name="protecting-our-democracy.css" crc="4185768567" ref="phone>protecting-our-democracy"/>
-      <file name="index.css" crc="225428189" ref="phone>index"/>
-      <file name="protecting-womens-health-and-reproductive-justice.css" crc="4208743187" ref="phone>protecting-womens-health-and-reproductive-justice"/>
+      <file name="master_menu.css" crc="205636092" ref="phone>protecting-muslim-american-rights:phone>about-us:phone>protecting-lgbtqa--rights:phone>404:phone>500:phone>ensuring-environmental-justice:phone>protecting-our-democracy:phone>donate:phone>index:phone>protecting-womens-health-and-reproductive-justice:phone>protecting-undocumented-immigrants:phone>issues"/>
+      <file name="protecting-muslim-american-rights.css" crc="385414977" ref="phone>protecting-muslim-american-rights"/>
+      <file name="about-us.css" crc="3768911387" ref="phone>about-us"/>
+      <file name="protecting-lgbtqa--rights.css" crc="397736011" ref="phone>protecting-lgbtqa--rights"/>
+      <file name="404.css" crc="142606489" ref="phone>404"/>
+      <file name="500.css" crc="481702067" ref="phone>500"/>
+      <file name="ensuring-environmental-justice.css" crc="494665219" ref="phone>ensuring-environmental-justice"/>
+      <file name="protecting-our-democracy.css" crc="411001237" ref="phone>protecting-our-democracy"/>
       <file name="donate.css" crc="115591746" ref="phone>donate"/>
-      <file name="500.css" crc="476007023" ref="phone>500"/>
-      <file name="issues.css" crc="4003236858" ref="phone>issues"/>
+      <file name="index.css" crc="80517746" ref="phone>index"/>
+      <file name="protecting-womens-health-and-reproductive-justice.css" crc="4162225905" ref="phone>protecting-womens-health-and-reproductive-justice"/>
+      <file name="protecting-undocumented-immigrants.css" crc="356357859" ref="phone>protecting-undocumented-immigrants"/>
+      <file name="issues.css" crc="3811233503" ref="phone>issues"/>
     </folder>
-    <file name="index.html" crc="4248051858" seo="true" mt="1487376259964" redirect="true"/>
-    <file name="donate.html" crc="3921430404" seo="true" mt="1487376259964" redirect="true"/>
-    <file name="protecting-undocumented-immigrants.html" crc="469198615" seo="true" mt="1487376259964" redirect="true"/>
-    <file name="protecting-muslim-american-rights.html" crc="4106058724" seo="true" mt="1487376259964" redirect="true"/>
-    <file name="protecting-lgbtqa--rights.html" crc="4158741395" seo="true" mt="1487376259964" redirect="true"/>
-    <file name="ensuring-environmental-justice.html" crc="509894137" seo="true" mt="1487376259964" redirect="true"/>
-    <file name="protecting-our-democracy.html" crc="4265660825" seo="true" mt="1487376259964" redirect="true"/>
-    <file name="protecting-womens-health-and-reproductive-justice.html" crc="168925137" seo="true" mt="1487376259964" redirect="true"/>
+    <file name="index.html" crc="442697059" seo="true" mt="1487376259964" redirect="true"/>
+    <file name="donate.html" crc="3804705955" seo="true" mt="1487376259964" redirect="true"/>
+    <file name="protecting-undocumented-immigrants.html" crc="443994359" seo="true" mt="1487376259964" redirect="true"/>
+    <file name="protecting-muslim-american-rights.html" crc="454317702" seo="true" mt="1487376259964" redirect="true"/>
+    <file name="protecting-lgbtqa--rights.html" crc="4282499971" seo="true" mt="1487376259964" redirect="true"/>
+    <file name="ensuring-environmental-justice.html" crc="4039584899" seo="true" mt="1487376259964" redirect="true"/>
+    <file name="protecting-our-democracy.html" crc="4289138756" seo="true" mt="1487376259964" redirect="true"/>
+    <file name="protecting-womens-health-and-reproductive-justice.html" crc="3922002754" seo="true" mt="1487376259964" redirect="true"/>
     <file name="issues.html" crc="177829459" seo="true" mt="1487376259964" redirect="true"/>
     <file name="about-us.html" crc="4243580336" seo="true" mt="1487376259964" redirect="true"/>
-    <file name="404.html" crc="484786664" seo="true" mt="1487376860893" redirect="true"/>
-    <file name="500.html" crc="231371234" seo="true" mt="1487376981477" redirect="true"/>
+    <file name="404.html" crc="3988766524" seo="true" mt="1487376860893" redirect="true"/>
+    <file name="500.html" crc="4196265920" seo="true" mt="1487376981477" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4047853790" seo="true" mt="1487373256148" redirect="true"/>
-  <file name="donate.html" crc="3792073406" seo="true" mt="1487373256157" redirect="true"/>
-  <file name="protecting-womens-health-and-reproductive-justice.html" crc="4200983770" seo="true" mt="1487373256173" redirect="true"/>
-  <file name="protecting-our-democracy.html" crc="316859435" seo="true" mt="1487373256183" redirect="true"/>
-  <file name="ensuring-environmental-justice.html" crc="430339770" seo="true" mt="1487373256198" redirect="true"/>
-  <file name="protecting-lgbtqa--rights.html" crc="4002441288" seo="true" mt="1487373256208" redirect="true"/>
-  <file name="protecting-muslim-american-rights.html" crc="398944872" seo="true" mt="1487373256223" redirect="true"/>
-  <file name="protecting-undocumented-immigrants.html" crc="3804414733" seo="true" mt="1487373256233" redirect="true"/>
-  <file name="404.html" crc="15890757" seo="true" mt="1487376208189" redirect="true"/>
-  <file name="500.html" crc="3868466251" seo="true" mt="1487376948912" redirect="true"/>
+  <file name="index.html" crc="3988522579" seo="true" mt="1487825783839" redirect="true"/>
+  <file name="donate.html" crc="430654467" seo="true" mt="1487825783839" redirect="true"/>
+  <file name="protecting-womens-health-and-reproductive-justice.html" crc="59951494" seo="true" mt="1487825783839" redirect="true"/>
+  <file name="protecting-our-democracy.html" crc="325136688" seo="true" mt="1487825783839" redirect="true"/>
+  <file name="ensuring-environmental-justice.html" crc="3991977164" seo="true" mt="1487825783839" redirect="true"/>
+  <file name="protecting-lgbtqa--rights.html" crc="4133102080" seo="true" mt="1487825783839" redirect="true"/>
+  <file name="protecting-muslim-american-rights.html" crc="374590270" seo="true" mt="1487825783839" redirect="true"/>
+  <file name="protecting-undocumented-immigrants.html" crc="4218976998" seo="true" mt="1487825783839" redirect="true"/>
+  <file name="404.html" crc="4293351270" seo="true" mt="1487825783839" redirect="true"/>
+  <file name="500.html" crc="4251997287" seo="true" mt="1487825783839" redirect="true"/>
 </manifest>
