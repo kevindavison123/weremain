@@ -53,13 +53,21 @@ app.use(function(req: express.Request, res: express.Response, next) {
 
 // production error handler
 // no stacktrace leaked to user
+var fs = require('fs');
 app.use(function(err: any, req: express.Request, res: express.Response, next: express.NextFunction) {
-
-  res.status(err.status || 500);
-  res.json({
-    error: {},
-    message: err.message
-  });
+  if (req.accepts('html')) {
+    fs.readFile(__dirname + '/../client/assets/404.html', 'utf-8', function(err, page) {
+      res.writeHead(404, {'Content-Type': 'text/html'});
+      res.write(page);
+      res.end();    
+    });
+  }
+  else if (req.accepts('json')) {
+    res.status(404).send({error: 'Not found' });  
+  }
+  else {
+    res.status(404).type('txt').send('Not found');
+  }
 });
 
 export { app }
