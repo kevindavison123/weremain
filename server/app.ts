@@ -28,12 +28,12 @@ if('production' === process.env.NODE_ENV) {
     }
     res.redirect('https://' + req.hostname + req.url);
   });
-  
-  app.use(express.static(path.join(__dirname, '/../client')));
 }
 /*********************************************************************/
 /* place all other routes below this so they get the https redirect! */
 /*********************************************************************/
+
+app.use(express.static(path.join(__dirname, '/../client/assets/')));
 
 // api routes
 /**  

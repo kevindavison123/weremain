@@ -9,5 +9,6 @@ then
 else
 ##default to development environment
 #  echo "DEFAULT"
-  npm run start
+  npm run build
+  npm run _server:run
 fi
