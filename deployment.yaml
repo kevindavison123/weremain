@@ -1,0 +1,26 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: weremainfund
+  name: weremainfund
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: weremainfund
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: weremainfund
+    spec:
+      containers:
+      - image: gcr.io/black-network-156417/weremainfund.org:latest
+        name: weremainfund
+        ports:
+        - containerPort: 4200
+        resources: {}
+status: {}
