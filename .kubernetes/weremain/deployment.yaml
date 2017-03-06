@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: weremainfund
+  namespace: weremainfund
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: weremainfund
+    spec:
+      containers:
+      - image: gcr.io/black-network-156417/weremain-node:v2
+        imagePullPolicy: Always
+        name: weremainfund
+        ports:
+        - containerPort: 4200

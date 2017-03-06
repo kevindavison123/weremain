@@ -1,12 +1,21 @@
-version: '2'
+version: '2.1'
 services:
-  wereamin:
+  weremainfund.org:
+    image: gcr.io/black-network-156417/weremainfund.org
     build:
+      args:
+        APP: weremainfund.org
+        PORT: ${PORT}
+        NODE_ENV: ${NODE_ENV}
       context: .
       dockerfile: Dockerfile
+    expose:
+      - "4200" #/*
+      - "4300" #/api
     ports:
-      - "4200:4200"
+      - "80:4200"
+      - "443:4200"
+      - "4300:4300"
     volumes:
-      - .:/wereamin
-  redis:
-    image: redis
+      - ./src:/srv/www/weremainfund.org/src
+      - ./server:/srv/www/weremainfund.org/server

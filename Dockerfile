@@ -2,14 +2,24 @@ FROM node:latest
 
 MAINTAINER Kyle Davison <kdavison@gmail.com>
 
+ARG APP
+ARG NODE_ENV
+ARG PORT
+
+ENV WEBROOT /srv/www/${APP}
+ENV NODE_ENV ${NODE_ENV}
+ENV PORT ${PORT}
+
 RUN apt-get update
 
-RUN mkdir /weremain
-WORKDIR /weremain
-COPY . /weremain
+WORKDIR ${WEBROOT}
+COPY package.json ${WEBROOT}
 
+#install npm
 RUN npm install
 
-EXPOSE 4200
+COPY . ${WEBROOT}
 
-ENTRYPOINT ["node", "server.js"]
+ENTRYPOINT ["./serve.sh"]
+#ENTRYPOINT ["node", "dist/server/bin/www.js"]
+#ENTRYPOINT ["sh", "-c", "while [ 1 ]; do sleep 120; done;"]

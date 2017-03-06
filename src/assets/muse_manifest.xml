@@ -1,0 +1,223 @@
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="https://weremainfund.org" resolutions="1x" timestamp="1488345798320">
+  <folder name="css">
+    <file name="site_global.css" crc="200382551"/>
+    <file name="master_menu.css" crc="17771714" ref="index:500:donate:about-us:womens-rights:issues:voting-rights:our-volunteers:environmental-rights:faq:lgbtqa--rights:contact-us:muslim-rights:immigrant-rights:404"/>
+    <file name="index.css" crc="459272377" ref="index"/>
+    <file name="500.css" crc="470594716" ref="500"/>
+    <file name="donate.css" crc="3887924586" ref="donate"/>
+    <file name="about-us.css" crc="49735835" ref="about-us"/>
+    <file name="womens-rights.css" crc="3851013554" ref="womens-rights"/>
+    <file name="issues.css" crc="489006527" ref="issues"/>
+    <file name="voting-rights.css" crc="4135268116" ref="voting-rights"/>
+    <file name="our-volunteers.css" crc="116217516" ref="our-volunteers"/>
+    <file name="environmental-rights.css" crc="201216658" ref="environmental-rights"/>
+    <file name="faq.css" crc="83198706" ref="faq"/>
+    <file name="lgbtqa--rights.css" crc="3841435060" ref="lgbtqa--rights"/>
+    <file name="contact-us.css" crc="257918742" ref="contact-us"/>
+    <file name="muslim-rights.css" crc="287924032" ref="muslim-rights"/>
+    <file name="immigrant-rights.css" crc="242033946" ref="immigrant-rights"/>
+    <file name="404.css" crc="173002184" ref="404"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany:index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="museutils.js" crc="531812214" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany:index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="whatinput.js" crc="84559013" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany:index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="pie.js" crc="3827607177" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="jquery.watch.js" crc="3866665977" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany:index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="jquery.musemenu.js" crc="3902934130" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany:index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="webpro.js" crc="4156477058" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="musewpslideshow.js" crc="4058618124" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="jquery.museoverlay.js" crc="3810062583" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="touchswipe.js" crc="4174436727" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="120190942" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="jquery.scrolleffects.js" crc="3975164813" ref="phone>index:phone>issues:phone>about-us:index:donate:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany:index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="museredirect.js" crc="524071285" ref="index:donate:womens-rights:voting-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="form_check.php" crc="373582055" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="form_throttle.php" crc="211381018" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="form_process.php" crc="6354943" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="form-u35052.php" crc="4155565296" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="form-u72299.php" crc="3759260448" ref="contact-us"/>
+  </folder>
+  <folder name="images">
+    <file name="u48413-5.png" crc="4228924429" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany"/>
+    <file name="u48412-4.png" crc="334483075" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany"/>
+    <file name="thoughtful.png" crc="4020002073" seo="true" ref="phone>index"/>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:index"/>
+    <file name="engaged.png" crc="3775522078" seo="true" ref="phone>index"/>
+    <file name="hopeful.png" crc="302992297" seo="true" ref="phone>index"/>
+    <file name="inclusive.png" crc="58804403" seo="true" ref="phone>index"/>
+    <file name="informed.png" crc="3968043482" seo="true" ref="phone>index"/>
+    <file name="just.png" crc="4132264519" seo="true" ref="phone>index"/>
+    <file name="kind.png" crc="4254792408" seo="true" ref="phone>index"/>
+    <file name="loving.png" crc="3818687942" seo="true" ref="phone>index"/>
+    <file name="optimistic.png" crc="4237761705" seo="true" ref="phone>index"/>
+    <file name="responsible.png" crc="3950156700" seo="true" ref="phone>index"/>
+    <file name="loading.gif" crc="3815509949" ref="phone>index:index"/>
+    <file name="u47925-4.png" crc="4184884251" ref="phone>index"/>
+    <file name="u47927-4.png" crc="238459711" ref="phone>index"/>
+    <file name="line.jpg" crc="4244896467" seo="true" ref="phone>index:phone>issues:phone>about-us:phone>faq:phone>our-volunteers:index:issues"/>
+    <file name="u47926-4.png" crc="4012747357" ref="phone>index"/>
+    <file name="u47753-4.png" crc="4184884251" ref="phone>index"/>
+    <file name="u47754-4.png" crc="238459711" ref="phone>index"/>
+    <file name="u47755-4.png" crc="4212997240" ref="phone>index"/>
+    <file name="u47752-4.png" crc="4012747357" ref="phone>index"/>
+    <file name="islam_blur.jpg" crc="4236755825" ref="phone>index:phone>immigrant-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="immigration_blur.jpg" crc="249247692" ref="phone>index:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="womem_blur.jpg" crc="391836672" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="environement_blur.jpg" crc="3886251262" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>voting-rights:phone>womens-rights:phone>issues:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="lgbtq_blur.jpg" crc="14863352" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>issues:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="voters_blur.jpg" crc="4022388552" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>womens-rights:phone>issues:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="u47580-4.png" crc="4184884251" ref="phone>index"/>
+    <file name="u47579-4.png" crc="238459711" ref="phone>index"/>
+    <file name="grayline.jpg" crc="3829814196" seo="true" ref="phone>index:index:about-us:our-volunteers:faq:contact-us"/>
+    <file name="u47583-4.png" crc="390922354" ref="phone>index"/>
+    <file name="u47578-4.png" crc="4012747357" ref="phone>index"/>
+    <file name="donate icon.png" crc="337056753" seo="true" ref="phone>index:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights"/>
+    <file name="1485820043_facebook.png" crc="3793576420" seo="true" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany"/>
+    <file name="1485820040_twitter.png" crc="271541312" seo="true" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany"/>
+    <file name="1485820035_email.png" crc="4197295353" seo="true" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany"/>
+    <file name="u46930-4.png" crc="486444262" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany"/>
+    <file name="u46932-4.png" crc="3941234540" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany"/>
+    <file name="u46931-4.png" crc="3884135786" ref="phone>index:phone>donate:phone>immigrant-rights:phone>muslim-rights:phone>lgbtqa--rights:phone>environmental:phone>voting-rights:phone>womens-rights:phone>issues:phone>about-us:phone>404:phone>500:phone>faq:phone>our-volunteers:phone>contact-us:phone>jacob:phone>melany"/>
+    <file name="immigration.jpg" crc="289283011" ref="phone>immigrant-rights:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="islam.jpg" crc="3832668180" ref="phone>muslim-rights:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="lgbtq.jpg" crc="341188270" ref="phone>lgbtqa--rights:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="environement-cropped.jpg" crc="35951103" ref="phone>environmental:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="voters.jpg" crc="184301632" ref="phone>voting-rights:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="women right.jpg" crc="355947715" ref="phone>womens-rights:index:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:issues"/>
+    <file name="u47729-4.png" crc="4184884251" ref="phone>issues"/>
+    <file name="u47727-4.png" crc="238459711" ref="phone>issues"/>
+    <file name="u47728-4.png" crc="4012747357" ref="phone>issues"/>
+    <file name="u47665-4.png" crc="4212997240" ref="phone>issues"/>
+    <file name="u47623-4.png" crc="4184884251" ref="phone>about-us"/>
+    <file name="u47622-4.png" crc="238459711" ref="phone>about-us"/>
+    <file name="u47624-4.png" crc="4012747357" ref="phone>about-us"/>
+    <file name="u47620-4.png" crc="390922354" ref="phone>about-us"/>
+    <file name="u72783-4.png" crc="4184884251" ref="phone>faq"/>
+    <file name="u72782-4.png" crc="238459711" ref="phone>faq"/>
+    <file name="u72784-4.png" crc="4012747357" ref="phone>faq"/>
+    <file name="u72785-4.png" crc="390922354" ref="phone>faq"/>
+    <file name="u73119-4.png" crc="4184884251" ref="phone>our-volunteers"/>
+    <file name="u73117-4.png" crc="238459711" ref="phone>our-volunteers"/>
+    <file name="u73118-4.png" crc="4012747357" ref="phone>our-volunteers"/>
+    <file name="u73120-4.png" crc="390922354" ref="phone>our-volunteers"/>
+    <file name="jacobcarrel.jpg" crc="272106130" seo="true" ref="phone>jacob"/>
+    <file name="melanydiaz.jpg" crc="4202631730" seo="true" ref="phone>melany"/>
+    <file name="favicon.ico" crc="4198979813" ref="index"/>
+    <file name="u4269-4.png" crc="4244702835" ref="index"/>
+    <file name="u4270-4.png" crc="135641627" ref="index"/>
+    <file name="u4268-4.png" crc="261840565" ref="index"/>
+    <file name="thoughtful2.png" crc="438887548" seo="true" ref="index"/>
+    <file name="engaged2.png" crc="4013297079" seo="true" ref="index"/>
+    <file name="hopeful2.png" crc="3836756309" seo="true" ref="index"/>
+    <file name="inclusive2.png" crc="3934227725" seo="true" ref="index"/>
+    <file name="informed2.png" crc="150550436" seo="true" ref="index"/>
+    <file name="just2.png" crc="26407223" seo="true" ref="index"/>
+    <file name="kind2.png" crc="1092719" seo="true" ref="index"/>
+    <file name="loving2.png" crc="132482990" seo="true" ref="index"/>
+    <file name="optimistic2.png" crc="3789332523" seo="true" ref="index"/>
+    <file name="responsible2.png" crc="4256641238" seo="true" ref="index"/>
+    <file name="weremainlogo.jpg" crc="3785752461" seo="true" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="u74175-r-grad.png" crc="8778350" ref="index"/>
+    <file name="u74196-r-grad.png" crc="4251113417" ref="index"/>
+    <file name="1485819986_twitter.png" crc="3773149297" seo="true" ref="index"/>
+    <file name="1485819981_facebook.png" crc="61114273" seo="true" ref="index"/>
+    <file name="u41018-4.png" crc="4098424244" ref="index"/>
+    <file name="u41019-4.png" crc="40154919" ref="index"/>
+    <file name="u41022-4.png" crc="4034160231" ref="index"/>
+    <file name="u41039-4.png" crc="3871550609" ref="index"/>
+    <file name="u41648-4.png" crc="4098424244" ref="index"/>
+    <file name="u41649-4.png" crc="40154919" ref="index"/>
+    <file name="u41647-4.png" crc="4034160231" ref="index"/>
+    <file name="u41650-4.png" crc="484959190" ref="index"/>
+    <file name="u26765-4.png" crc="4061285817" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="u26766-4.png" crc="524088871" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="u26771-4.png" crc="253557891" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="1485903213_facebook.png" crc="4159068897" seo="true" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="u35061-17.png" crc="4268746530" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="u35061-17-r.png" crc="3909340758" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="u35061-17-m.png" crc="3971412192" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="u35061-17-fs.png" crc="3976425824" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="1485903202_email.png" crc="3767678956" ref="index"/>
+    <file name="1485903208_twitter.png" crc="316665969" seo="true" ref="index:donate:womens-rights:voting-rights:environmental-rights:lgbtqa--rights:muslim-rights:immigrant-rights:404:500:about-us:issues:our-volunteers:faq:contact-us"/>
+    <file name="u71280-4.png" crc="4098424244" ref="about-us"/>
+    <file name="u71281-4.png" crc="40154919" ref="about-us"/>
+    <file name="u71282-4.png" crc="4034160231" ref="about-us"/>
+    <file name="u71285-4.png" crc="484959190" ref="about-us"/>
+    <file name="u73609-4.png" crc="4098424244" ref="issues"/>
+    <file name="u73610-4.png" crc="40154919" ref="issues"/>
+    <file name="u73613-4.png" crc="4034160231" ref="issues"/>
+    <file name="u73614-4.png" crc="3871550609" ref="issues"/>
+    <file name="u72450-4.png" crc="4098424244" ref="our-volunteers"/>
+    <file name="u72452-4.png" crc="40154919" ref="our-volunteers"/>
+    <file name="u72451-4.png" crc="4034160231" ref="our-volunteers"/>
+    <file name="u72455-4.png" crc="484959190" ref="our-volunteers"/>
+    <file name="u71426-4.png" crc="4098424244" ref="faq"/>
+    <file name="u71428-4.png" crc="40154919" ref="faq"/>
+    <file name="u71427-4.png" crc="4034160231" ref="faq"/>
+    <file name="u71431-4.png" crc="484959190" ref="faq"/>
+    <file name="u71937-4.png" crc="4098424244" ref="contact-us"/>
+    <file name="u71938-4.png" crc="40154919" ref="contact-us"/>
+    <file name="u71936-4.png" crc="4034160231" ref="contact-us"/>
+    <file name="u71941-4.png" crc="484959190" ref="contact-us"/>
+    <file name="u72310-17.png" crc="3813059014" ref="contact-us"/>
+    <file name="u72310-17-r.png" crc="20626350" ref="contact-us"/>
+    <file name="u72310-17-m.png" crc="299223674" ref="contact-us"/>
+    <file name="u72310-17-fs.png" crc="491099501" ref="contact-us"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_menu.css" crc="205636092" ref="phone>voting-rights:phone>environmental:phone>lgbtqa--rights:phone>melany:phone>muslim-rights:phone>jacob:phone>immigrant-rights:phone>contact-us:phone>donate:phone>our-volunteers:phone>index:phone>faq:phone>404:phone>500:phone>about-us:phone>issues:phone>womens-rights"/>
+      <file name="voting-rights.css" crc="4057163445" ref="phone>voting-rights"/>
+      <file name="environmental.css" crc="4140661394" ref="phone>environmental"/>
+      <file name="lgbtqa--rights.css" crc="4283994403" ref="phone>lgbtqa--rights"/>
+      <file name="melany.css" crc="200096661" ref="phone>melany"/>
+      <file name="muslim-rights.css" crc="206346258" ref="phone>muslim-rights"/>
+      <file name="jacob.css" crc="3990562532" ref="phone>jacob"/>
+      <file name="immigrant-rights.css" crc="3963512595" ref="phone>immigrant-rights"/>
+      <file name="contact-us.css" crc="467412013" ref="phone>contact-us"/>
+      <file name="donate.css" crc="3942881797" ref="phone>donate"/>
+      <file name="our-volunteers.css" crc="3957907544" ref="phone>our-volunteers"/>
+      <file name="index.css" crc="498874082" ref="phone>index"/>
+      <file name="faq.css" crc="275355874" ref="phone>faq"/>
+      <file name="404.css" crc="401449953" ref="phone>404"/>
+      <file name="500.css" crc="225800008" ref="phone>500"/>
+      <file name="about-us.css" crc="4154320853" ref="phone>about-us"/>
+      <file name="issues.css" crc="62601283" ref="phone>issues"/>
+      <file name="womens-rights.css" crc="319916927" ref="phone>womens-rights"/>
+    </folder>
+    <file name="index.html" crc="175495224" seo="true" mt="1488255086708" redirect="true"/>
+    <file name="donate.html" crc="103506518" seo="true" mt="1488248208689" redirect="true"/>
+    <file name="immigrant-rights.html" crc="3786592910" seo="true" mt="1488255046740" redirect="true"/>
+    <file name="muslim-rights.html" crc="3918448785" seo="true" mt="1488255050727" redirect="true"/>
+    <file name="lgbtqa--rights.html" crc="129732907" seo="true" mt="1488255059548" redirect="true"/>
+    <file name="environmental.html" crc="3771772166" seo="true" mt="1488255069267" redirect="true"/>
+    <file name="voting-rights.html" crc="224339349" seo="true" mt="1488255065888" redirect="true"/>
+    <file name="womens-rights.html" crc="47115993" seo="true" mt="1488255062611" redirect="true"/>
+    <file name="issues.html" crc="4033115176" seo="true" mt="1488255042361" redirect="true"/>
+    <file name="about-us.html" crc="295054514" seo="true" mt="1488253951953" redirect="true"/>
+    <file name="404.html" crc="411224238" seo="true" mt="1488248208689" redirect="true"/>
+    <file name="500.html" crc="4290138231" seo="true" mt="1488248208689" redirect="true"/>
+    <file name="faq.html" crc="36025649" seo="true" mt="1488254076826" redirect="true"/>
+    <file name="our-volunteers.html" crc="3968427117" seo="true" mt="1488255926548" redirect="true"/>
+    <file name="contact-us.html" crc="4041690871" seo="true" mt="1488254325542" redirect="true"/>
+    <file name="jacob.html" crc="180965854" seo="true" mt="1488254372438" redirect="true"/>
+    <file name="melany.html" crc="278816625" seo="true" mt="1488248208689" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="511733733" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="donate.html" crc="4236685809" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="womens-rights.html" crc="496673173" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="voting-rights.html" crc="447118652" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="environmental-rights.html" crc="3916717077" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="lgbtqa--rights.html" crc="380109631" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="muslim-rights.html" crc="3801343607" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="immigrant-rights.html" crc="218856622" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="404.html" crc="399036126" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="500.html" crc="511390513" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="about-us.html" crc="4279405318" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="issues.html" crc="211475137" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="our-volunteers.html" crc="506162065" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="faq.html" crc="3904835800" seo="true" mt="1488345745567" redirect="true"/>
+  <file name="contact-us.html" crc="344016006" seo="true" mt="1488345745567" redirect="true"/>
+</manifest>
