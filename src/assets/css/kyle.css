@@ -1,7 +1,7 @@
 .version.kyle /* version checker */
 {
-	color: #0000E1;
-	background-color: #362497;
+	color: #0000EE;
+	background-color: #88F114;
 }
 
 #page
@@ -628,8 +628,8 @@
 	width: 911px;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-left: 25px;

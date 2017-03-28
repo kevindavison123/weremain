@@ -1,7 +1,7 @@
 .version.jacob /* version checker */
 {
-	color: #000018;
-	background-color: #F69B34;
+	color: #0000E2;
+	background-color: #49E808;
 }
 
 #page
@@ -625,8 +625,8 @@
 	width: 596px;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-left: 182px;

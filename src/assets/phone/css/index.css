@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000007;
-	background-color: #77E2F5;
+	color: #000011;
+	background-color: #1B4C5C;
 }
 
 #page
@@ -469,10 +469,10 @@
 	width: 119px;
 	min-height: 23px;
 	background-color: transparent;
-	letter-spacing: 1px;
 	color: #5E5B5B;
-	text-align: center;
 	line-height: 31px;
+	text-align: center;
+	letter-spacing: 1px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -510,8 +510,8 @@
 	width: 354px;
 	min-height: 23px;
 	background-color: transparent;
-	line-height: 24px;
 	color: #FFFFFF;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -546,10 +546,10 @@
 	width: 119px;
 	min-height: 23px;
 	background-color: transparent;
-	letter-spacing: 1px;
 	color: #5E5B5B;
-	text-align: center;
 	line-height: 31px;
+	text-align: center;
+	letter-spacing: 1px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -737,8 +737,8 @@
 	width: 306px;
 	min-height: 45px;
 	background-color: transparent;
-	line-height: 22px;
 	color: #5E5B5B;
+	line-height: 22px;
 	font-size: 18px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -773,8 +773,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -803,8 +803,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -833,8 +833,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -863,8 +863,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -894,8 +894,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -924,8 +924,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1051,8 +1051,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1088,8 +1088,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1134,8 +1134,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1165,8 +1165,8 @@
 	width: 122px;
 	min-height: 24px;
 	background-color: transparent;
-	line-height: 22px;
 	color: #5E5B5B;
+	line-height: 22px;
 	font-size: 18px;
 	text-align: justify;
 	font-family: abel, sans-serif;
@@ -1290,8 +1290,8 @@
 	font-size: 20px;
 	letter-spacing: 10px;
 	color: #FFFFFF;
-	text-align: center;
 	line-height: 24px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 }
@@ -1407,8 +1407,8 @@
 	width: 354px;
 	min-height: 31px;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;

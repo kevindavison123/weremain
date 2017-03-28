@@ -1,7 +1,7 @@
 .version.issues /* version checker */
 {
-	color: #0000E9;
-	background-color: #168110;
+	color: #00000F;
+	background-color: #B868F9;
 }
 
 #page
@@ -295,8 +295,8 @@
 	width: 306px;
 	min-height: 45px;
 	background-color: transparent;
-	line-height: 22px;
 	color: #5E5B5B;
+	line-height: 22px;
 	font-size: 18px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -331,8 +331,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -361,8 +361,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -391,8 +391,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -421,8 +421,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -452,8 +452,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -482,8 +482,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -593,8 +593,8 @@
 	font-size: 20px;
 	letter-spacing: 10px;
 	color: #FFFFFF;
-	text-align: center;
 	line-height: 24px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 }

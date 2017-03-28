@@ -1,7 +1,7 @@
 .version.environmental /* version checker */
 {
-	color: #0000E7;
-	background-color: #625D08;
+	color: #0000F0;
+	background-color: #A1F69F;
 }
 
 #page
@@ -229,8 +229,8 @@
 	width: 260px;
 	min-height: 43px;
 	background-color: transparent;
-	line-height: 36px;
 	color: #000000;
+	line-height: 36px;
 	font-size: 30px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -316,8 +316,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -346,8 +346,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -376,8 +376,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -407,8 +407,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -437,8 +437,8 @@
 	min-height: 60px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 53px;
 	color: #FFFFFF;
+	line-height: 53px;
 	font-size: 24px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -551,8 +551,8 @@
 	font-size: 20px;
 	letter-spacing: 10px;
 	color: #FFFFFF;
-	text-align: center;
 	line-height: 24px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 }

@@ -1,7 +1,7 @@
 .version.environmental_rights /* version checker */
 {
-	color: #000005;
-	background-color: #C912DB;
+	color: #00000E;
+	background-color: #151774;
 }
 
 #page
@@ -650,8 +650,8 @@
 	min-height: 45px;
 	background-color: transparent;
 	color: #000000;
-	font-size: 40px;
 	line-height: 48px;
+	font-size: 40px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -792,8 +792,8 @@
 	font-size: 20px;
 	letter-spacing: 10px;
 	color: #FFFFFF;
-	text-align: center;
 	line-height: 24px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 }
@@ -954,8 +954,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1028,8 +1028,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1110,8 +1110,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1186,8 +1186,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1268,8 +1268,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -1344,8 +1344,8 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
+	line-height: 48px;
 	font-size: 40px;
 	text-align: center;
 	font-family: abel, sans-serif;

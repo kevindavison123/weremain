@@ -1,7 +1,7 @@
 .version.our_volunteers /* version checker */
 {
-	color: #00000D;
-	background-color: #4E60EF;
+	color: #0000FE;
+	background-color: #98D870;
 }
 
 #page
@@ -314,8 +314,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -351,8 +351,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -397,8 +397,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -496,8 +496,8 @@
 	z-index: 54;
 	width: 300px;
 	background-color: transparent;
-	line-height: 45px;
 	color: #5E5B5B;
+	line-height: 45px;
 	font-size: 45px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -552,8 +552,8 @@
 	width: 300px;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 15px;
@@ -594,8 +594,8 @@
 	width: 300px;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 38px;
@@ -637,8 +637,8 @@
 	min-height: 79px;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 20px;
@@ -699,8 +699,8 @@
 	width: 300px;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 20px;
@@ -746,8 +746,8 @@
 	z-index: 89;
 	width: 300px;
 	background-color: transparent;
-	line-height: 45px;
 	color: #5E5B5B;
+	line-height: 45px;
 	font-size: 45px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -813,8 +813,8 @@
 	min-height: 42px;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -856,8 +856,8 @@
 	width: 300px;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 20px;

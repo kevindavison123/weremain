@@ -1,7 +1,7 @@
 .version.david /* version checker */
 {
-	color: #0000E5;
-	background-color: #DD04E5;
+	color: #0000E2;
+	background-color: #5D44E6;
 }
 
 #page
@@ -645,8 +645,8 @@
 	width: 297px;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 15px;

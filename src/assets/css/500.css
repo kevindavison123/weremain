@@ -1,7 +1,7 @@
 .version._500 /* version checker */
 {
-	color: #0000E5;
-	background-color: #015822;
+	color: #000004;
+	background-color: #1AC3BF;
 }
 
 #page
@@ -699,8 +699,8 @@
 	font-size: 40px;
 	letter-spacing: 10px;
 	color: #FFFFFF;
-	text-align: center;
 	line-height: 48px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 }
@@ -783,8 +783,8 @@
 	z-index: 50;
 	width: 468px;
 	background-color: transparent;
-	line-height: 36px;
 	color: #3995A7;
+	line-height: 36px;
 	font-size: 30px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -839,8 +839,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: left;
 	font-family: abel, sans-serif;
@@ -887,8 +887,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: left;
 	font-family: abel, sans-serif;
@@ -935,8 +935,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: left;
 	font-family: abel, sans-serif;
@@ -991,8 +991,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: left;
 	font-family: abel, sans-serif;

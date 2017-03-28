@@ -1,7 +1,7 @@
 .version.faq /* version checker */
 {
-	color: #0000FB;
-	background-color: #53663C;
+	color: #00001F;
+	background-color: #ECE159;
 }
 
 #page
@@ -281,8 +281,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -309,8 +309,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;
@@ -346,8 +346,8 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: center;
 	font-family: abel, sans-serif;

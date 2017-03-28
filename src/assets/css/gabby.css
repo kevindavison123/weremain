@@ -1,7 +1,7 @@
 .version.gabby /* version checker */
 {
-	color: #00000C;
-	background-color: #0CD47B;
+	color: #000017;
+	background-color: #020581;
 }
 
 #page
@@ -642,8 +642,8 @@
 	min-height: 79px;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 20px;

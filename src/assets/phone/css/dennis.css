@@ -1,7 +1,7 @@
 .version.dennis /* version checker */
 {
-	color: #0000F9;
-	background-color: #CCDACD;
+	color: #0000FF;
+	background-color: #8D3B94;
 }
 
 #page
@@ -230,8 +230,8 @@
 	z-index: 8;
 	background-color: transparent;
 	color: #999999;
-	text-align: center;
 	line-height: 14px;
+	text-align: center;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 20px;

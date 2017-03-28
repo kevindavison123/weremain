@@ -1,7 +1,7 @@
 .version.kevin /* version checker */
 {
-	color: #0000F0;
-	background-color: #21E399;
+	color: #000018;
+	background-color: #799E56;
 }
 
 #page
@@ -227,8 +227,8 @@
 {
 	z-index: 12;
 	background-color: transparent;
-	line-height: 35px;
 	color: #5E5B5B;
+	line-height: 35px;
 	font-size: 35px;
 	text-align: center;
 	font-family: abel, sans-serif;
