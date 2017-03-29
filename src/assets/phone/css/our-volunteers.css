@@ -1,7 +1,7 @@
 .version.our_volunteers /* version checker */
 {
-	color: #00000D;
-	background-color: #4E60EF;
+	color: #000006;
+	background-color: #A26BC5;
 }
 
 #page
@@ -314,10 +314,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
 	font-size: 20px;
 	text-align: center;
+	line-height: 24px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -351,10 +351,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
 	font-size: 20px;
 	text-align: center;
+	line-height: 24px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -397,10 +397,10 @@
 	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 24px;
 	color: #5E5B5B;
 	font-size: 20px;
 	text-align: center;
+	line-height: 24px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -496,10 +496,10 @@
 	z-index: 54;
 	width: 300px;
 	background-color: transparent;
-	line-height: 45px;
 	color: #5E5B5B;
 	font-size: 45px;
 	text-align: center;
+	line-height: 45px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 19px;
@@ -746,10 +746,10 @@
 	z-index: 89;
 	width: 300px;
 	background-color: transparent;
-	line-height: 45px;
 	color: #5E5B5B;
 	font-size: 45px;
 	text-align: center;
+	line-height: 45px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 15px;

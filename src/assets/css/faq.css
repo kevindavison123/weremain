@@ -1,7 +1,7 @@
 .version.faq /* version checker */
 {
-	color: #0000E9;
-	background-color: #DAD124;
+	color: #000003;
+	background-color: #8CA583;
 }
 
 #page
@@ -700,10 +700,10 @@
 	width: 920px;
 	min-height: 35px;
 	background-color: transparent;
-	line-height: 29px;
 	color: #5E5B5B;
 	font-size: 24px;
 	text-align: center;
+	line-height: 29px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	left: 120px;
