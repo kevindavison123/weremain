@@ -1,7 +1,7 @@
 .version.aaron /* version checker */
 {
-	color: #0000FF;
-	background-color: #76CC3B;
+	color: #00001F;
+	background-color: #085F04;
 }
 
 #page
@@ -225,10 +225,10 @@
 	z-index: 10;
 	width: 279px;
 	background-color: transparent;
-	line-height: 35px;
 	color: #5E5B5B;
 	font-size: 35px;
 	text-align: center;
+	line-height: 35px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	margin-top: 20px;

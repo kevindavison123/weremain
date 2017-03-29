@@ -1,7 +1,7 @@
 .version.about_us /* version checker */
 {
-	color: #0000F8;
-	background-color: #8ED176;
+	color: #00001F;
+	background-color: #09A341;
 }
 
 #page
@@ -750,10 +750,10 @@
 	z-index: 22;
 	min-height: 35px;
 	background-color: transparent;
-	line-height: 29px;
 	color: #5E5B5B;
 	font-size: 24px;
 	text-align: center;
+	line-height: 29px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 }

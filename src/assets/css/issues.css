@@ -1,7 +1,7 @@
 .version.issues /* version checker */
 {
-	color: #0000F4;
-	background-color: #C5C7D6;
+	color: #000000;
+	background-color: #16CD73;
 }
 
 #page
@@ -691,10 +691,10 @@
 	z-index: 2;
 	min-height: 35px;
 	background-color: transparent;
-	line-height: 29px;
 	color: #5E5B5B;
 	font-size: 24px;
 	text-align: center;
+	line-height: 29px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 }
@@ -758,10 +758,10 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: center;
+	line-height: 48px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -835,10 +835,10 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: center;
+	line-height: 48px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -912,10 +912,10 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: center;
+	line-height: 48px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -995,10 +995,10 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: center;
+	line-height: 48px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -1072,10 +1072,10 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: center;
+	line-height: 48px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -1149,10 +1149,10 @@
 	min-height: 120px;
 	background-color: #BFBFBF;
 	background-color: rgba(127,127,127,0.5);
-	line-height: 48px;
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: center;
+	line-height: 48px;
 	font-family: abel, sans-serif;
 	font-weight: 400;
 	position: relative;
