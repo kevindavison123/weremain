@@ -1,12 +1,12 @@
-#!bin/bash
+#!/bin/bash
 export PORT=4200
 export NODE_ENV=production
 
 echo "remove active dockers"
-docker rm $(docker ps -aq) -f || exit 1
+docker rm $(docker ps -aq) -f # || exit 1
 
 echo "remove docker images"
-docker rmi $(docker images -aq) -f || exit 1
+docker rmi $(docker images -aq) -f # || exit 1
 
 echo "build the docker image"
 docker-compose build --no-cache || exit 1
