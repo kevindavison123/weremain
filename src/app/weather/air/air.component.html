@@ -1,7 +1,7 @@
 <div class="card">
   <div class="air"
-       [ngClass]="{ 'green': number < 50, 'yellow': number >= 51 && number < 100, 'orange': number >= 101 && number < 150,
-       'red': number >= 151 && number < 200, 'violet': number >= 201 && number < 300, 'purple': number >= 300 }">
+       [ngClass]="{ 'green': true, 'yellow': false, 'orange': false,
+       'red': false, 'violet': false, 'purple': false }">
     {{number}}
   </div>
   <div class="container">

@@ -59,7 +59,7 @@ app.use(function(err: any, req: express.Request, res: express.Response, next: ex
     fs.readFile(__dirname + '/../client/assets/404.html', 'utf-8', function(err, page) {
       res.writeHead(404, {'Content-Type': 'text/html'});
       res.write(page);
-      res.end();    
+      res.end();
     });
   }
   else if (req.accepts('json')) {
