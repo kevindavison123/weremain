@@ -70,4 +70,27 @@ app.use(function(err: any, req: express.Request, res: express.Response, next: ex
   }
 });
 
+
+
+// Auto renew certs every month
+//Add certs to your Node.js Server
+// var http = require('https');
+// var fs = require('fs');
+//
+// var sslPath = 'this will be the ssl path';
+//
+// var options = {
+//     key: fs.readFileSync(sslPath + 'privkey.pem'),
+//     cert: fs.readFileSync(sslPath + 'fullchain.pem')
+// };
+//
+// this.server = http.createServer(options, this.app);
+// this.io = require('socket.io').listen(this.server);
+// this.server.listen(443);
+
+// Auto-renew SSL certificates with Lets Encrypt add this to cron job that needs to be setup in the docker.
+// how to set up CronJob in Docker:  that https://www.ekito.fr/people/run-a-cron-job-with-docker/
+// Monthly renewal command:  @monthly  /path/to/certbot-auto renew --standalone --pre-hook "stop yourWebService" --post-hook "start yourWebService"
+
+
 export { app }
