@@ -74,6 +74,15 @@ app.use(function(err: any, req: express.Request, res: express.Response, next: ex
 
 // Auto renew certs every month
 //Add certs to your Node.js Server
+var CronJob = require('cron').CronJob;
+var autorenew_job = new CronJob({
+  cronTime: '30 * * * * *',
+  onTick: function() {
+    console.log('put certbot renewal stuff here!');
+  },
+  start: true
+});
+
 // var http = require('https');
 // var fs = require('fs');
 //

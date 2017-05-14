@@ -7,6 +7,7 @@ services:
         APP: weremainfund.org
         PORT: ${PORT}
         NODE_ENV: ${NODE_ENV}
+        SECRET_DIR: /opt/secrets/
       context: .
       dockerfile: Dockerfile
     expose:
