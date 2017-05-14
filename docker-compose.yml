@@ -20,3 +20,5 @@ services:
     volumes:
       - ./src:/srv/www/weremainfund.org/src
       - ./server:/srv/www/weremainfund.org/server
+    user: node
+    working_dir: /srv/www/weremainfund.org/
