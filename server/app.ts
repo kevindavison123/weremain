@@ -21,6 +21,9 @@ app.all('/healthCheck', function(req, res) {
   res.sendStatus(200);
 });
 
+/* SERVE CERTBOT .well-known/acmechallenge */
+app.use('/.well-known/acme-challenge', express.static(path.join(__dirname, '/../../.well-known/acme-challenge/')));
+
 if('production' === process.env.NODE_ENV) {
   app.all('*', function(req, res, next) {
     if(req.headers["x-forwarded-proto"] === "https") {
@@ -29,10 +32,10 @@ if('production' === process.env.NODE_ENV) {
     res.redirect('https://' + req.hostname + req.url);
   });
 }
+
 /*********************************************************************/
 /* place all other routes below this so they get the https redirect! */
 /*********************************************************************/
-
 app.use(express.static(path.join(__dirname, '/../client/assets/')));
 
 // api routes
@@ -56,7 +59,7 @@ app.use(function(req: express.Request, res: express.Response, next) {
 var fs = require('fs');
 app.use(function(err: any, req: express.Request, res: express.Response, next: express.NextFunction) {
   if (req.accepts('html')) {
-    fs.readFile(__dirname + '/../client/assets/404.html', 'utf-8', function(err, page) {
+    fs.readFile(path.join(__dirname, '/../client/assets/404.html'), 'utf-8', function(err, page) {
       res.writeHead(404, {'Content-Type': 'text/html'});
       res.write(page);
       res.end();
@@ -74,15 +77,6 @@ app.use(function(err: any, req: express.Request, res: express.Response, next: ex
 
 // Auto renew certs every month
 //Add certs to your Node.js Server
-var CronJob = require('cron').CronJob;
-var autorenew_job = new CronJob({
-  cronTime: '30 * * * * *',
-  onTick: function() {
-    console.log('put certbot renewal stuff here!');
-  },
-  start: true
-});
-
 // var http = require('https');
 // var fs = require('fs');
 //

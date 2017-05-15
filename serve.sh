@@ -1,5 +1,9 @@
 #!/bin/bash
 
+service cron start
+COMMAND='echo "test" >> ${HOME}/log.txt'
+echo "*/5 * * * * ${COMMAND}" | crontab -
+
 if [ ! -z "${NODE_ENV}" ] && [ "${NODE_ENV}" = "production" ]
 then
 ##production intent
@@ -12,3 +16,5 @@ else
   npm run build
   npm run _server:run
 fi
+
+
