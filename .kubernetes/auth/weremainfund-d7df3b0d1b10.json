@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "black-network-156417",
+  "private_key_id": "d7df3b0d1b1068a905cad0578301259a60dfc13e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCtfzMclL4yA2Zx\ncXe02/HvPsftf2iflgWmact6iy7ZBkYLUt72kVLwK7wH6AaXGVuX9i0RDU0okYq3\nUdM4uOrMFe8ve7qfHvPvi4wYI7TJRiV2+MClq+0aUA3rxuAmb+Tf9QWDpTR1SMir\nwVo02/aAwmzEVf4mPOLXQtjCae5ORGKfw+Bg5bgqTR4uIRSJ65MSPMxBcRcsybPx\nzwm8w9f0TzCC3e5ov8LAZcMBT8eXek6GShCwcpc/sfr+p+d2AD0LimEQJ7O29Dmk\njj7KcTTCrAGwnwOB+HjRXUpAitDbn34U5m6cG051g1sXKfWn5bjfx6Ykbg+WTKYf\nA4l1eQ+xAgMBAAECggEAD936j6+Zdrt8NVMk7oPQVuANVXl52QvVt8gkgDBAeEAB\noewnULIuZ/an+1UgsoBIMdf60SdqmhONddc5k7jIXc0tEyZOsATFrG+9FUFsDvL9\nCX9rJvutSI3FEtNyZobZ42g7jomfsuZALAJtPI5YDKM7YqK2sUqPjb5Np/dw1Z7L\n6teup6lA507Du3HiyEGh5mE4Kl8PrzQe/vbDNwCMoQj/FlB/cHYmWZZChiVKexu4\nDPb1zIxvcoNIakjjfxvXldi+Hc+6cMdpB2YJc6fhEDnfWZ1iLR1ZtCnMKtxduRA6\nEPUNdmvNPV6lcd7U80Ctrv90CSkRpjimRjfQiZOBnQKBgQDwZ7h2zGtVRQkAmDRP\nf6/dhS7mJsxfzKtYI/7oG9ztLztn9Mxwd/Nqb6rQdx4GL3sEPm3+L9cjvokstnaN\n5DJAvxdenNAsEa5t+OoSJAqPbvYt/1IeI2HAIgCqlhsIWXrKjtL9PKsk9/j0gHIB\nCOMqldcpjpRQTuJgCRZMzPaqHwKBgQC4wF5+dzIqQ6izNc+wAWcVWlmwXJhMjmmF\n1CUI4UdY9Ja32wnUHtSf9+u0jDlU2Cn7G0vuIgiNKYpnvD3qnmeE1ToMQ8vPGE0/\n9++YdA7imYEGWzu8GldjPVQYf2czo7su95H613mv4fmdpo2Fn7k1TjuzW7rKDvOg\nucPjX72sLwKBgCvwKQy9a9iX139eUiE9ix0HnHzAFpZjx+VCHvK5NPW8rjTfzwW3\nRqvrYOLdAoXK48bwyhWtFLsZteSQLLbeQDkJM/I84udLDABZgB50q+FvPFtH0PBl\nMxZ0oH6NFL+/6utekz1pezY0hDHbz/pUb4B3Bm43+u96m3FF9+dthp+tAoGAVP3C\nOsGQ5VqM0CywJ5LtnigbXIOsWIOnTbajdutUDDsw3tG4OsoYHKNL3pongb2Tyn3r\nN1iWwIHctw4lGbrXeocxFhVWPCY823Gu2l6BvoLJlWgBGe6wRuoetspdaqcm5Ftl\n35Si2WPGllzZfCBXbotX8ZIAYxXvw//Retc/hWcCgYAslnmU7xC10CA/bw/c5o9S\nuMkE3Ipuy4YpcoHLTsD49I4P6wy524W2lIZHTBIMJC9NXPrLVyDYKU9WTOlVDj7Y\n0EFAL8x0zR2sZ+RxFOr8rPz0409uE156857RRtDBoA+ihrg3pOCZlk17QRsdxjGX\nc9EiEDej/c29s9SIfCMw7g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "https-certification-bot@black-network-156417.iam.gserviceaccount.com",
+  "client_id": "106257187723483799567",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/https-certification-bot%40black-network-156417.iam.gserviceaccount.com"
+}
