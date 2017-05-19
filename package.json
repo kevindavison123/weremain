@@ -18,7 +18,7 @@
   },
   "author": "Vlado Tešanović",
   "repository": {
-    "url": "https://github.com/vladotesanovic/angular2-express-starter"
+    "url": "git+https://github.com/vladotesanovic/angular2-express-starter.git"
   },
   "private": true,
   "dependencies": {
@@ -75,5 +75,9 @@
     "protractor": "4.0.9",
     "codelyzer": "^2.0.0-beta.4",
     "webdriver-manager": "10.2.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/vladotesanovic/angular2-express-starter/issues"
+  },
+  "homepage": "https://github.com/vladotesanovic/angular2-express-starter#readme"
 }
