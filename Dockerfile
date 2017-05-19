@@ -20,8 +20,10 @@ COPY . ${WEBROOT}
 
 RUN mkdir -p ${SECRET_DIR}
 
-#install kubectl
-RUN cd /usr/local/bin && curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && cd - && chmod +x /usr/local/bin/kubectl
+#install gcloud
+RUN cd /tmp && curl -LO https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-155.0.0-linux-x86_64.tar.gz && tar -xzvf google-cloud-sdk* && cd google-cloud-sdk* && ./install.sh --quiet
+
+COPY ./.kubernetes/auth/weremainfund-d7df3b0d1b10.json /root/
 
 #install cerbot
 RUN apt-get install -y certbot -t jessie-backports && mkdir -p ./.well-known/acme-challenge

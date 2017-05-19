@@ -14,3 +14,5 @@ docs/
 
 # REMOVE LATER #
 WeRemainProject
+
+!.kubernetes/auth/*.json
