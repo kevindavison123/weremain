@@ -1,7 +1,11 @@
+#ignore
 .git
 .gitignore
+.dockerignore
 README.md
 docker-compose.yml
+deployment.yaml
+deploy.sh
 Dockerfile
 useful-commands.md
 pom.xml
@@ -12,7 +16,6 @@ docs/
 .elasticbeanstalk/
 *.zip
 
-# REMOVE LATER #
-WeRemainProject
 
+#don't ignore
 !.kubernetes/auth/*.json

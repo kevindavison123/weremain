@@ -21,9 +21,6 @@ app.all('/healthCheck', function(req, res) {
   res.sendStatus(200);
 });
 
-/* SERVE CERTBOT .well-known/acmechallenge */
-app.use('/.well-known/acme-challenge', express.static(path.join(__dirname, '/../../.well-known/acme-challenge/')));
-
 if('production' === process.env.NODE_ENV) {
   app.all('*', function(req, res, next) {
     if(req.headers["x-forwarded-proto"] === "https") {
@@ -72,28 +69,6 @@ app.use(function(err: any, req: express.Request, res: express.Response, next: ex
     res.status(404).type('txt').send('Not found');
   }
 });
-
-
-
-// Auto renew certs every month
-//Add certs to your Node.js Server
-// var http = require('https');
-// var fs = require('fs');
-//
-// var sslPath = 'this will be the ssl path';
-//
-// var options = {
-//     key: fs.readFileSync(sslPath + 'privkey.pem'),
-//     cert: fs.readFileSync(sslPath + 'fullchain.pem')
-// };
-//
-// this.server = http.createServer(options, this.app);
-// this.io = require('socket.io').listen(this.server);
-// this.server.listen(443);
-
-// Auto-renew SSL certificates with Lets Encrypt add this to cron job that needs to be setup in the docker.
-// how to set up CronJob in Docker:  that https://www.ekito.fr/people/run-a-cron-job-with-docker/
-// Monthly renewal command:  @monthly  /path/to/certbot-auto renew --standalone --pre-hook "stop yourWebService" --post-hook "start yourWebService"
 
 
 export { app }

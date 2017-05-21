@@ -1,89 +1,76 @@
 #!/usr/bin/env node
 
+'use strict';
+
 /**
  * Module dependencies.
  */
 
 import { app } from '../app';
-import { serverPort } from '../config';
-import * as http from 'http';
 
 /**
  * Get port from environment and store in Express.
  */
-const port = normalizePort(process.env.PORT || serverPort);
-app.set('port', port);
+const http_port = require('normalize-port')(process.env.HTTP_PORT || 8080);
+//const https_port = normalizePort(process.env.HTTPS_PORT || 8443);
+const admin_email = process.env.ADMIN_EMAIL;
 
 /**
- * Create HTTP server.
+ * default LetsEncryptServer to 'https://acme-staging.api.letsencrypt.org/directory', set to 'https://acme-v01.api.letsencrypt.org/directory' in production
  */
-const server = http.createServer(app);
+var LetsEncryptServer = 'https://acme-staging.api.letsencrypt.org/directory';
+//if('production' === process.env.NODE_ENV) {
+//  LetsEncryptServer = 'https://acme-v01.api.letsencrypt.org/directory';
+//}
 
 /**
- * Listen on provided port, on all network interfaces.
+ * instance of node-greenlock with additional helper methods
  */
+const letsencrypt_directory = process.env.WEBROOT;
+var lex = require('greenlock-express').create(
+  {
+      server: LetsEncryptServer,
 
-server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
+      challenges: {
+        'http-01': require('le-challenge-fs').create({ webrootPath: letsencrypt_directory })
+      },
 
-/**
- * Normalize a port into a number, string, or false.
- */
+      store: require('le-store-certbot').create({ webrootPath: letsencrypt_directory }),
 
-function normalizePort(val): boolean | number {
+      approveDomains: approveDomains
+  }
+);
 
-  const normalizedPort = parseInt(val, 10);
+/** validate information before starting certificate process
 
-  if (isNaN(normalizedPort)) {
-    // named pipe
-    return val;
+Security Warning:
+
+If you don't do proper checks in approveDomains(opts, certs, cb)
+an attacker will spoof SNI packets with bad hostnames and that will
+cause you to be rate-limited and or blocked from the ACME server.
+
+**/
+var ValidDomains = ["weremainfund.org", "www.weremainfund.org"];
+function approveDomains(opts, certs, cb) {
+  if( certs ) {
+    opts.domains = certs.altnames;
+  } else {
+    opts.email = admin_email;
+    opts.agreeTos = true;  
   }
 
-  if (normalizedPort >= 0) {
-    // port number
-    return normalizedPort;
-  }
-
-  return false;
-}
-
-/**
- * Event listener for HTTP server 'error' event.
- */
-
-function onError(error) {
-  if (error.syscall !== 'listen') {
-    throw error;
-  }
-
-  const bind = typeof port === 'string'
-    ? 'Pipe ' + port
-    : 'Port ' + port;
-
-  // handle specific listen errors with friendly messages
-  switch (error.code) {
-    case 'EACCES':
-      console.error(bind + ' requires elevated privileges');
-      process.exit(1);
-      break;
-    case 'EADDRINUSE':
-      console.error(bind + ' is already in use');
-      process.exit(1);
-      break;
-    default:
-      throw error;
+  if((ValidDomains.length === opts.domains.length)) {
+    for(let domain of ValidDomains) {
+      if( opts.domains.indexOf(domain) <= 0) {
+        return;
+      }
+    }
+    cb(null, { options: opts, certs: certs }); 
   }
 }
 
-/**
- * Event listener for HTTP server 'listening' event.
- */
+/** start server **/
 
-function onListening() {
-  const addr = server.address();
-  const bind = typeof addr === 'string'
-    ? 'pipe ' + addr
-    : 'port ' + addr.port;
-  console.log('Listening on ' + bind);
-}
+require('http').createServer(lex.middleware(app)).listen(http_port, function () {
+  console.log("Listening for ACME http-01 challenges on", this.address());
+});

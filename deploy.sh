@@ -18,9 +18,9 @@ echo "create the local deployment file"
 kubectl run weremainfund --image=gcr.io/black-network-156417/weremainfund.org:latest --port=4200 --output yaml --dry-run > deployment.yaml
 
 echo "delete current deployment"
-#kubectl delete deployment weremainfund
+kubectl delete deployment weremainfund || exit 1
 sleep 2
 
 echo "deploy the new image"
-#kubectl create -f deployment.yaml
+kubectl create -f deployment.yaml || exit 1
 

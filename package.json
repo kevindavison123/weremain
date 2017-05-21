@@ -60,7 +60,9 @@
     "ts-node": "1.2.1",
     "tslint": "^4.0.0",
     "typescript": "latest",
-    "zone.js": "^0.7.2"
+    "zone.js": "^0.7.2",
+    "greenlock-express": "latest",
+    "normalize-port" : "latest"
   },
   "devDependencies": {
     "concurrently": "^3.1.0",

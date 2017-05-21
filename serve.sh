@@ -17,9 +17,9 @@ cd /root
 cd -
 
 ##setup cron
-service cron start
-COMMAND='echo "test" >> ${HOME}/log.txt'
-echo "*/5 * * * * ${COMMAND}" | crontab -
+#service cron start
+#COMMAND='echo "test" >> ${HOME}/log.txt'
+#echo "*/5 * * * * ${COMMAND}" | crontab -
 
 if [ ! -z "${NODE_ENV}" ] && [ "${NODE_ENV}" = "production" ]
 then

@@ -1,22 +1,20 @@
-version: '2.1'
+version: '3'
 services:
   weremainfund.org:
     image: gcr.io/black-network-156417/weremainfund.org
     build:
       args:
         APP: weremainfund.org
-        PORT: ${PORT}
+        HTTP_PORT: 4200
+        HTTPS_PORT: 4243
         NODE_ENV: ${NODE_ENV}
-        SECRET_DIR: /opt/secrets/
+        ADMIN_EMAIL: kevin.davison@weremainfund.org
       context: .
       dockerfile: Dockerfile
     expose:
-      - "4200" #/*
-      - "4300" #/api
+      - 4200
     ports:
       - "80:4200"
-      - "443:4200"
-      - "4300:4300"
     volumes:
       - ./src:/srv/www/weremainfund.org/src
       - ./server:/srv/www/weremainfund.org/server
