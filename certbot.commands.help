@@ -1,0 +1,14 @@
+certbot certonly \
+  --staging \
+  --debug \
+  --preferred-challenges http-01 \
+  --webroot -w /tmp \
+  --config-dir /root/letsencrypt/etc \
+  --work-dir /root/letsencrypt/var/lib \
+  --logs-dir /root/letsencrypt/var/log \
+  --fullchain-path /root/letsencrypt/etc/live/weremainfund.org \
+  --chain-path /root/letsencrypt/etc/live/weremainfund.org \
+  --cert-path /root/letsencrypt/etc/live/weremainfund.org \
+  --key-path /root/letsencrypt/etc/live/weremainfund.org/ \
+  -d weremainfund.org \
+  -d www.weremainfund.org

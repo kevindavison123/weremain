@@ -21,12 +21,15 @@ cd -
 #COMMAND='echo "test" >> ${HOME}/log.txt'
 #echo "*/5 * * * * ${COMMAND}" | crontab -
 
+#cp ${WEBROOT}/server/middleware.js ${WEBROOT}/node_modules/greenlock/lib
+#mkdir -p /srv/www/weremainfund.org/dist/client/assets/.well-known/acme-challenge/
+
 if [ ! -z "${NODE_ENV}" ] && [ "${NODE_ENV}" = "production" ]
 then
 ##production intent
 #  echo "PRODUCTION"
   npm run build
-  node dist/server/bin/www.js
+  node dist/server/bin/www.js > /tmp/log.txt
 else
 ##default to development environment
 #  echo "DEFAULT"

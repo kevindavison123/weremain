@@ -6,6 +6,7 @@
  * Module dependencies.
  */
 
+import * as path from 'path';
 import { app } from '../app';
 
 /**
@@ -26,18 +27,31 @@ var LetsEncryptServer = 'https://acme-staging.api.letsencrypt.org/directory';
 /**
  * instance of node-greenlock with additional helper methods
  */
-const letsencrypt_directory = process.env.WEBROOT;
+
+
+const letsencrypt_directory = path.resolve(process.env.CHALLENGE_WEBROOT);
+console.log("letsencrypt dir: %s", letsencrypt_directory);
 var lex = require('greenlock-express').create(
   {
-      server: LetsEncryptServer,
+      server: 'staging',
 
-      challenges: {
-        'http-01': require('le-challenge-fs').create({ webrootPath: letsencrypt_directory })
+      challenges: {'http-01': require('le-challenge-fs').create(
+                                 {
+                                    webrootPath: letsencrypt_directory,
+                                    debug: true
+                                  })
       },
 
-      store: require('le-store-certbot').create({ webrootPath: letsencrypt_directory }),
+      store: require('le-store-certbot').create(
+              {
+                webrootPath: letsencrypt_directory,
+                debug: true
+              }
+      ),
 
-      approveDomains: approveDomains
+      approveDomains: approveDomains,
+
+      debug: true
   }
 );
 
@@ -54,14 +68,17 @@ var ValidDomains = ["weremainfund.org", "www.weremainfund.org"];
 function approveDomains(opts, certs, cb) {
   if( certs ) {
     opts.domains = certs.altnames;
+    opts.email = admin_email;
   } else {
     opts.email = admin_email;
     opts.agreeTos = true;  
   }
 
+  console.log("got to approve domain function!");
+
   if((ValidDomains.length === opts.domains.length)) {
     for(let domain of ValidDomains) {
-      if( opts.domains.indexOf(domain) <= 0) {
+      if( opts.domains.indexOf(domain) < 0) {
         return;
       }
     }
@@ -72,5 +89,6 @@ function approveDomains(opts, certs, cb) {
 /** start server **/
 
 require('http').createServer(lex.middleware(app)).listen(http_port, function () {
+  console.log("current path: %s", path.resolve(__dirname));
   console.log("Listening for ACME http-01 challenges on", this.address());
 });
