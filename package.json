@@ -62,7 +62,8 @@
     "typescript": "latest",
     "zone.js": "^0.7.2",
     "greenlock-express": "latest",
-    "normalize-port" : "latest"
+    "normalize-port" : "latest",
+    "cron" : "latest"
   },
   "devDependencies": {
     "concurrently": "^3.1.0",

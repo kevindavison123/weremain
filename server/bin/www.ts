@@ -24,11 +24,18 @@ var LetsEncryptServer = 'https://acme-staging.api.letsencrypt.org/directory';
 //  LetsEncryptServer = 'https://acme-v01.api.letsencrypt.org/directory';
 //}
 
+var CronJob = require('cron').CronJob;
+var check_certificates = new CronJob({
+  cronTime: '* */5 * * * *',
+  onTick: function() {
+      require('child_process').spawn('/bin/bash', ['-c', '${WEBROOT}/certupdate.sh'], {stdio: 'inherit'});
+    },
+  start: true
+});
+
 /**
  * instance of node-greenlock with additional helper methods
  */
-
-
 const letsencrypt_directory = path.resolve(process.env.CHALLENGE_WEBROOT);
 console.log("letsencrypt dir: %s", letsencrypt_directory);
 var lex = require('greenlock-express').create(
