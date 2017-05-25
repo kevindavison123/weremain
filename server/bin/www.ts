@@ -20,9 +20,9 @@ const admin_email = process.env.ADMIN_EMAIL;
  * default LetsEncryptServer to 'https://acme-staging.api.letsencrypt.org/directory', set to 'https://acme-v01.api.letsencrypt.org/directory' in production
  */
 var LetsEncryptServer = 'https://acme-staging.api.letsencrypt.org/directory';
-//if('production' === process.env.NODE_ENV) {
-//  LetsEncryptServer = 'https://acme-v01.api.letsencrypt.org/directory';
-//}
+if('production' === process.env.NODE_ENV) {
+  LetsEncryptServer = 'https://acme-v01.api.letsencrypt.org/directory';
+}
 
 var CronJob = require('cron').CronJob;
 var check_certificates = new CronJob({

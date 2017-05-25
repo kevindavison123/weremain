@@ -5,6 +5,7 @@ mkdir -p ${PREVIOUS_DIR}
 
 KUBECTL=/tmp/google-cloud-sdk/bin/kubectl
 SECRET_NAME=weremain-cert
+STORAGE=${CERTIFICATE_STORAGE}/${APPLICATION}
 
 #
 # ${KUBECTL} create secret generic ${SECRET_NAME} \
@@ -22,7 +23,7 @@ FILELIST=(privkey.pem fullchain.pem chain.pem cert.pem)
 COUNT_CHECK=0
 for file in "${FILELIST[@]}"
 do
-  if [ -e "${CERTIFICATE_STORAGE}/${file}" ]
+  if [ -e "${STORAGE}/${file}" ]
   then
     COUNT_CHECK=$((COUNT_CHECK+1))    
   fi
@@ -36,7 +37,7 @@ then
 else
   for file in "${FILELIST[@]}"
   do
-    current_content=($(md5sum "${CERTIFICATE_STORAGE}/${file}"))
+    current_content=($(md5sum "${STORAGE}/${file}"))
     if [ -e "${PREVIOUS_DIR}/${file}.previous" ]
     then  
       previous_content=$(cat "${PREVIOUS_DIR}/${file}.previous")
@@ -58,22 +59,22 @@ if [ "${UPDATE_REQUIRED}" -eq 4 ]
 then
   for file in "${FILELIST[@]}"
   do
-    current_content=($(md5sum "${CERTIFICATE_STORAGE}/${file}"))
+    current_content=($(md5sum "${STORAGE}/${file}"))
     echo "${current_content}" > "${PREVIOUS_DIR}/${file}.previous"
   done
 
 #use kubectl to create the secret
-  ${KUBECTL} create secret generic ${SECRET_NAME} \
-    --from-file=tls.crt=${CERTIFICATE_STORAGE}/fullchain.pem \
-    --from-file=tls.key=${CERTIFICATE_STORAGE}/privkey.pem \
-    --output yaml \
-    --dry-run \
-    > /tmp/secret.yaml
+#  ${KUBECTL} create secret generic ${SECRET_NAME} \
+#    --from-file=tls.key=${STORAGE}/privkey.pem \
+#    --from-file=tls.crt=${STORAGE}/fullchain.pem \
+#    --output yaml \
+#    --dry-run \
+#    > /tmp/secret.yaml
 
 #update the secret
 #  ${KUBECTL} apply -f /tmp/secret.yaml
 
 #delete the secret
-#  rm /tmp/secret.yaml
+#  mv /tmp/secret.yaml /tmp/secret.yaml.previous
 fi
 

@@ -8,13 +8,14 @@ ARG HTTPS_PORT
 ARG NODE_ENV
 ARG ADMIN_EMAIL
 
+ENV APPLICATION ${APP}
 ENV WEBROOT /srv/www/${APP}
 ENV HTTP_PORT ${HTTP_PORT}
 ENV HTTPS_PORT ${HTTPS_PORT}
 ENV NODE_ENV ${NODE_ENV}
 ENV ADMIN_EMAIL ${ADMIN_EMAIL}
 ENV CHALLENGE_WEBROOT /tmp/.well-known/acme-challenge
-ENV CERTIFICATE_STORAGE /root/letsencrypt/etc/live/${APP}
+ENV CERTIFICATE_STORAGE /root/letsencrypt/etc/live
 
 RUN \
   echo 'deb http://ftp.debian.org/debian jessie-backports main' >> /etc/apt/sources.list && \
